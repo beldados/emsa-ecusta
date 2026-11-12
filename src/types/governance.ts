@@ -49,3 +49,4 @@ export interface HealthcareAffiliate {
   logoPath: string;
   websiteUrl: string;
 }
+

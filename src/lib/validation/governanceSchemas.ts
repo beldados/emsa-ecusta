@@ -59,3 +59,4 @@ export const HealthcareAffiliateSchema = z.object({
   logoPath: z.string().min(1),
   websiteUrl: z.string().url(),
 });
+

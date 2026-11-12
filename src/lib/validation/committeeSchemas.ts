@@ -81,3 +81,4 @@ export const BatchGallerySchema = z.object({
   title: z.string().min(1),
   photos: z.array(BatchActivityPhotoSchema),
 });
+

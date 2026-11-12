@@ -22,3 +22,4 @@ export const ArchiveSearchQuerySchema = z.object({
   batchId: z.string().optional(),
   committeeSlug: z.union([CommitteeSlugSchema, z.literal('all')]).optional(),
 });
+

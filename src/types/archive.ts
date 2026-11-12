@@ -19,3 +19,4 @@ export interface ArchiveSearchQuery {
   batchId?: string;
   committeeSlug?: CommitteeSlug | 'all';
 }
+

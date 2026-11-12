@@ -72,3 +72,4 @@ export interface BatchGallery {
   title: string;
   photos: BatchActivityPhoto[];
 }
+
