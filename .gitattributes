@@ -1,0 +1,52 @@
+# ==============================================================================
+# EMSA-ECUSTA Digital Portal & Academy LMS — .gitattributes
+# ==============================================================================
+
+# ------------------------------------------------------------------------------
+# Text Normalization (Enforce LF across all platforms)
+# ------------------------------------------------------------------------------
+* text=auto eol=lf
+
+*.ts text eol=lf
+*.tsx text eol=lf
+*.js text eol=lf
+*.jsx text eol=lf
+*.mjs text eol=lf
+*.cjs text eol=lf
+*.json text eol=lf
+*.css text eol=lf
+*.scss text eol=lf
+*.html text eol=lf
+*.md text eol=lf
+*.mdx text eol=lf
+*.sql text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.svg text eol=lf
+*.sh text eol=lf
+
+# ------------------------------------------------------------------------------
+# Binary Assets (Disable line-ending conversion and text diffs)
+# ------------------------------------------------------------------------------
+# Self-hosted web fonts
+*.woff2 binary
+*.woff binary
+*.ttf binary
+*.otf binary
+*.eot binary
+
+# Images & icons
+*.webp binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.avif binary
+*.ico binary
+
+# Documents & media
+*.pdf binary
+*.mp4 binary
+*.webm binary
+*.mp3 binary
+
