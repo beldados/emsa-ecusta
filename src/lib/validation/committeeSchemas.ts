@@ -29,6 +29,7 @@ export const StandingCommitteeSchema = z.object({
   name: z.string().min(2),
   shortDescription: z.string().min(10),
   fullMission: z.string().min(10),
+  logoPath: z.string().min(1),
   colorTheme: z.object({
     primary: z.string().regex(/^#([0-9a-fA-F]{3}|[0-9a-fA-F]{6})$/),
     badgeBg: z.string(),
@@ -81,4 +82,3 @@ export const BatchGallerySchema = z.object({
   title: z.string().min(1),
   photos: z.array(BatchActivityPhotoSchema),
 });
-

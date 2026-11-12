@@ -1,0 +1,174 @@
+{
+  "standingCommittees": [
+    {
+      "id": "scome",
+      "acronym": "SCOME",
+      "name": "Medical Education",
+      "shortDescription": "Strengthening medical learning through student advocacy, peer education, and academic development.",
+      "fullMission": "The Standing Committee on Medical Education empowers medical students to take active ownership of their learning, curriculum design, clinical simulation, and postgraduate preparedness.",
+      "logoPath": "/assets/committees/scome/logo.png",
+      "colorTheme": {
+        "primary": "#3B82F6",
+        "badgeBg": "bg-blue-500/15",
+        "accentGlow": "shadow-blue-500/20"
+      },
+      "telegramJoinUrl": "https://t.me/emsa_ecusta_scome"
+    },
+    {
+      "id": "scoph",
+      "acronym": "SCOPH",
+      "name": "Public Health",
+      "shortDescription": "Promoting prevention, health literacy, and community engagement to address public health needs.",
+      "fullMission": "The Standing Committee on Public Health addresses regional and national epidemiological challenges through preventive drives, NCD screening clinics, antimicrobial resistance stewardship, and rural outreach.",
+      "logoPath": "/assets/committees/scoph/logo.png",
+      "colorTheme": {
+        "primary": "#F97316",
+        "badgeBg": "bg-orange-500/15",
+        "accentGlow": "shadow-orange-500/20"
+      },
+      "telegramJoinUrl": "https://t.me/emsa_ecusta_scoph"
+    },
+    {
+      "id": "scora",
+      "acronym": "SCORA",
+      "name": "Sexual & Reproductive Health and Rights",
+      "shortDescription": "Fostering informed, inclusive dialogue on sexual and reproductive health, rights, and wellbeing.",
+      "fullMission": "The Standing Committee on Sexual and Reproductive Health and Rights promotes maternal health literacy, cervical cancer awareness, gender-based violence prevention, and youth health advocacy.",
+      "logoPath": "/assets/committees/scora/logo.png",
+      "colorTheme": {
+        "primary": "#EC4899",
+        "badgeBg": "bg-pink-500/15",
+        "accentGlow": "shadow-pink-500/20"
+      },
+      "telegramJoinUrl": "https://t.me/emsa_ecusta_scora"
+    },
+    {
+      "id": "scope",
+      "acronym": "SCOPE",
+      "name": "Professional Exchange",
+      "shortDescription": "Connecting medical students with clinical exchange opportunities and cross-cultural learning.",
+      "fullMission": "The Standing Committee on Professional Exchange facilitates bilateral international hospital clerkships, pre-departure clinical ethics training, and academic medical bilateral exchanges.",
+      "logoPath": "/assets/committees/scope/logo.png",
+      "colorTheme": {
+        "primary": "#06B6D4",
+        "badgeBg": "bg-cyan-500/15",
+        "accentGlow": "shadow-cyan-500/20"
+      },
+      "telegramJoinUrl": "https://t.me/emsa_ecusta_scope"
+    },
+    {
+      "id": "scorp",
+      "acronym": "SCORP",
+      "name": "Human Rights & Peace",
+      "shortDescription": "Championing dignity, health equity, and a culture of peace through education and student action.",
+      "fullMission": "The Standing Committee on Human Rights and Peace advocates for refugee medical support, healthcare access for vulnerable populations, medical ethics, and disaster humanitarian relief.",
+      "logoPath": "/assets/committees/scorp/logo.png",
+      "colorTheme": {
+        "primary": "#10B981",
+        "badgeBg": "bg-emerald-500/15",
+        "accentGlow": "shadow-emerald-500/20"
+      },
+      "telegramJoinUrl": "https://t.me/emsa_ecusta_scorp"
+    },
+    {
+      "id": "score",
+      "acronym": "SCORE",
+      "name": "Research Exchange",
+      "shortDescription": "Encouraging scientific curiosity and international collaboration through research exchange.",
+      "fullMission": "The Standing Committee on Research Exchange builds foundational biostatistics capabilities, peer-reviewed clinical research cohorts, journal clubs, and international research clerkships.",
+      "logoPath": "/assets/committees/score/logo.png",
+      "colorTheme": {
+        "primary": "#8B5CF6",
+        "badgeBg": "bg-purple-500/15",
+        "accentGlow": "shadow-purple-500/20"
+      },
+      "telegramJoinUrl": "https://t.me/emsa_ecusta_score"
+    }
+  ],
+  "committeeLeadership": [
+    {
+      "id": "ldr-scome-director",
+      "batchId": "batch_2026_2027",
+      "committeeSlug": "scome",
+      "isDirector": true,
+      "officialTitle": "LOCAL OFFICER ON MEDICAL EDUCATION (LOME)",
+      "fullName": "Director Full Name",
+      "batchTier": "Clinical Year I",
+      "portraitPath": "/assets/leadership/2026-2027/scome-lome.webp",
+      "socialLinks": { "telegram": "https://t.me/lome_ecusta", "email": "lome.emsa.ecusta@gmail.com" },
+      "rankOrder": 1
+    },
+    {
+      "id": "ldr-scome-coord-1",
+      "batchId": "batch_2026_2027",
+      "committeeSlug": "scome",
+      "isDirector": false,
+      "officialTitle": "Academic Skills Coordinator",
+      "fullName": "Coordinator Full Name",
+      "batchTier": "Pre-Clinical Year II",
+      "portraitPath": "/assets/leadership/2026-2027/scome-officer-1.webp",
+      "socialLinks": { "email": "scome.skills@gmail.com" },
+      "rankOrder": 2
+    },
+    {
+      "id": "ldr-scoph-director",
+      "batchId": "batch_2026_2027",
+      "committeeSlug": "scoph",
+      "isDirector": true,
+      "officialTitle": "LOCAL PUBLIC HEALTH OFFICER (LPO)",
+      "fullName": "Director Full Name",
+      "batchTier": "Clinical Year I",
+      "portraitPath": "/assets/leadership/2026-2027/scoph-lpo.webp",
+      "socialLinks": { "telegram": "https://t.me/lpo_ecusta", "email": "lpo.emsa.ecusta@gmail.com" },
+      "rankOrder": 1
+    },
+    {
+      "id": "ldr-scora-director",
+      "batchId": "batch_2026_2027",
+      "committeeSlug": "scora",
+      "isDirector": true,
+      "officialTitle": "LOCAL OFFICER ON REPRODUCTIVE HEALTH (LORA)",
+      "fullName": "Director Full Name",
+      "batchTier": "Clinical Year I",
+      "portraitPath": "/assets/leadership/2026-2027/scora-lora.webp",
+      "socialLinks": { "telegram": "https://t.me/lora_ecusta", "email": "lora.emsa.ecusta@gmail.com" },
+      "rankOrder": 1
+    },
+    {
+      "id": "ldr-scope-director",
+      "batchId": "batch_2026_2027",
+      "committeeSlug": "scope",
+      "isDirector": true,
+      "officialTitle": "LOCAL EXCHANGE OFFICER (LEO)",
+      "fullName": "Director Full Name",
+      "batchTier": "Clinical Year I",
+      "portraitPath": "/assets/leadership/2026-2027/scope-leo.webp",
+      "socialLinks": { "telegram": "https://t.me/leo_ecusta", "email": "leo.emsa.ecusta@gmail.com" },
+      "rankOrder": 1
+    },
+    {
+      "id": "ldr-scorp-director",
+      "batchId": "batch_2026_2027",
+      "committeeSlug": "scorp",
+      "isDirector": true,
+      "officialTitle": "LOCAL OFFICER ON HUMAN RIGHTS & PEACE (LORP)",
+      "fullName": "Director Full Name",
+      "batchTier": "Clinical Year I",
+      "portraitPath": "/assets/leadership/2026-2027/scorp-lorp.webp",
+      "socialLinks": { "telegram": "https://t.me/lorp_ecusta", "email": "lorp.emsa.ecusta@gmail.com" },
+      "rankOrder": 1
+    },
+    {
+      "id": "ldr-score-director",
+      "batchId": "batch_2026_2027",
+      "committeeSlug": "score",
+      "isDirector": true,
+      "officialTitle": "LOCAL OFFICER ON RESEARCH EXCHANGE (LORE)",
+      "fullName": "Director Full Name",
+      "batchTier": "Clinical Year I",
+      "portraitPath": "/assets/leadership/2026-2027/score-lore.webp",
+      "socialLinks": { "telegram": "https://t.me/lore_ecusta", "email": "lore.emsa.ecusta@gmail.com" },
+      "rankOrder": 1
+    }
+  ]
+}

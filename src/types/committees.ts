@@ -20,6 +20,7 @@ export interface StandingCommittee {
   name: string; // "Sexual & Reproductive Health and Rights"
   shortDescription: string;
   fullMission: string;
+  logoPath: string; // Supports .png or .svg
   colorTheme: {
     primary: string; // Hex color
     badgeBg: string;
@@ -72,4 +73,3 @@ export interface BatchGallery {
   title: string;
   photos: BatchActivityPhoto[];
 }
-

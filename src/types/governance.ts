@@ -21,7 +21,6 @@ export interface AcademicTenure {
   isCurrent: boolean;
   themeStatement?: string;
   annualReportUrl?: string;
-  annualReportSize?: string;
 }
 
 export interface ExecutiveOfficer {
@@ -49,4 +48,3 @@ export interface HealthcareAffiliate {
   logoPath: string;
   websiteUrl: string;
 }
-

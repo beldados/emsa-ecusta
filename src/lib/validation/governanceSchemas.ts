@@ -24,7 +24,6 @@ export const AcademicTenureSchema = z.object({
   isCurrent: z.boolean(),
   themeStatement: z.string().optional(),
   annualReportUrl: z.string().optional(),
-  annualReportSize: z.string().optional(),
 });
 
 export const ExecutiveOfficerSchema = z.object({
@@ -59,4 +58,3 @@ export const HealthcareAffiliateSchema = z.object({
   logoPath: z.string().min(1),
   websiteUrl: z.string().url(),
 });
-

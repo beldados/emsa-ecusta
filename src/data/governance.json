@@ -1,0 +1,196 @@
+{
+  "tenures": [
+    {
+      "id": "batch_2026_2027",
+      "label": "2026–2027",
+      "status": "active",
+      "isCurrent": true,
+      "themeStatement": "Cultivating Clinical Excellence. Shape Our Medical Future.",
+      "annualReportUrl": "/assets/archive/2026-2027/annual-report.pdf"
+    },
+    {
+      "id": "batch_2025_2026",
+      "label": "2025–2026",
+      "status": "archived",
+      "isCurrent": false,
+      "themeStatement": "Bridging Academic Rigor and Community Outreach.",
+      "annualReportUrl": "/assets/archive/2025-2026/annual-report.pdf"
+    },
+    {
+      "id": "batch_2024_2025",
+      "label": "2024–2025",
+      "status": "frozen",
+      "isCurrent": false,
+      "themeStatement": "Pioneering Medical Student Advocacy Across Ethiopia.",
+      "annualReportUrl": "/assets/archive/2024-2025/annual-report.pdf"
+    }
+  ],
+  "executiveOfficers": [
+    {
+      "id": "eo-2026-mesula",
+      "batchId": "batch_2026_2027",
+      "fullName": "Mesula Wubliker",
+      "role": "PRESIDENT",
+      "batchTier": "Clinical Year II",
+      "portraitPath": "/assets/leadership/2026-2027/president.webp",
+      "socialLinks": {
+        "telegram": "https://t.me/mesula_w",
+        "linkedin": "https://linkedin.com/in/mesula-wubliker",
+        "email": "president.emsa.ecusta@gmail.com"
+      },
+      "rankOrder": 1
+    },
+    {
+      "id": "eo-2026-tibeb",
+      "batchId": "batch_2026_2027",
+      "fullName": "Tibeb Birhanu",
+      "role": "VP OF EXTERNAL AFFAIRS",
+      "batchTier": "Clinical Year II",
+      "portraitPath": "/assets/leadership/2026-2027/vp-external.webp",
+      "socialLinks": {
+        "telegram": "https://t.me/tibeb_b",
+        "linkedin": "https://linkedin.com/in/tibeb-birhanu",
+        "email": "vpe.emsa.ecusta@gmail.com"
+      },
+      "rankOrder": 2
+    },
+    {
+      "id": "eo-2026-akinahom",
+      "batchId": "batch_2026_2027",
+      "fullName": "Akinahom Molla",
+      "role": "VP OF CAPACITY BUILDING",
+      "batchTier": "Pre-Clinical Year II",
+      "portraitPath": "/assets/leadership/2026-2027/vp-capacity.webp",
+      "socialLinks": {
+        "telegram": "https://t.me/akinahom_m",
+        "linkedin": "https://linkedin.com/in/akinahom-molla",
+        "email": "vcb.emsa.ecusta@gmail.com"
+      },
+      "rankOrder": 3
+    },
+    {
+      "id": "eo-2026-ruth",
+      "batchId": "batch_2026_2027",
+      "fullName": "Ruth Eshetu",
+      "role": "VP OF FINANCE",
+      "batchTier": "Pre-Clinical Year II",
+      "portraitPath": "/assets/leadership/2026-2027/vp-finance.webp",
+      "socialLinks": {
+        "telegram": "https://t.me/ruth_e",
+        "email": "finance.emsa.ecusta@gmail.com"
+      },
+      "rankOrder": 4
+    },
+    {
+      "id": "eo-2026-alazar",
+      "batchId": "batch_2026_2027",
+      "fullName": "Alazar Wondwossen",
+      "role": "VP OF ACTIVITIES",
+      "batchTier": "Pre-Clinical Year I",
+      "portraitPath": "/assets/leadership/2026-2027/vp-activities.webp",
+      "socialLinks": {
+        "telegram": "https://t.me/alazar_w",
+        "email": "activities.emsa.ecusta@gmail.com"
+      },
+      "rankOrder": 5
+    },
+    {
+      "id": "eo-2026-nejat",
+      "batchId": "batch_2026_2027",
+      "fullName": "Nejat Teka",
+      "role": "VP OF MEMBERS",
+      "batchTier": "Pre-Clinical Year I",
+      "portraitPath": "/assets/leadership/2026-2027/vp-members.webp",
+      "socialLinks": {
+        "telegram": "https://t.me/nejat_t",
+        "email": "members.emsa.ecusta@gmail.com"
+      },
+      "rankOrder": 6
+    },
+    {
+      "id": "eo-2026-daniel",
+      "batchId": "batch_2026_2027",
+      "fullName": "Daniel Demerw",
+      "role": "VP OF PR & COMMUNICATION",
+      "batchTier": "Pre-Clinical Year I",
+      "portraitPath": "/assets/leadership/2026-2027/vp-pr.webp",
+      "socialLinks": {
+        "telegram": "https://t.me/daniel_d",
+        "email": "pr.emsa.ecusta@gmail.com"
+      },
+      "rankOrder": 7
+    },
+    {
+      "id": "eo-2026-basleal",
+      "batchId": "batch_2026_2027",
+      "fullName": "Basleal Bereket",
+      "role": "ASSISTANT - VP OF PR & COMMUNICATION",
+      "batchTier": "Pre-Clinical Year I",
+      "portraitPath": "/assets/leadership/2026-2027/asst-pr.webp",
+      "socialLinks": {
+        "telegram": "https://t.me/basleal_b",
+        "email": "asst.pr.emsa.ecusta@gmail.com"
+      },
+      "rankOrder": 8
+    }
+  ],
+  "coreValues": [
+    { "id": "val-1", "title": "Excellence in clinical training", "description": "Fostering rigorous clinical skills and diagnostic precision." },
+    { "id": "val-2", "title": "Integrity in practice", "description": "Upholding high medical ethics, transparency, and accountability." },
+    { "id": "val-3", "title": "Collaboration with healthcare bodies", "description": "Partnering with national ministries, hospitals, and global bodies." },
+    { "id": "val-4", "title": "Innovation in medicine", "description": "Championing modern evidence-based research and digital technologies." },
+    { "id": "val-5", "title": "Equity in healthcare", "description": "Advocating for universal access and community public health dignity." },
+    { "id": "val-6", "title": "Leadership development", "description": "Empowering medical students to lead Ethiopia's healthcare transformation." },
+    { "id": "val-7", "title": "Service to our country", "description": "Dedication to rural and urban patient communities across Ethiopia." }
+  ],
+  "healthcareAffiliates": [
+    {
+      "id": "aff-ecusta",
+      "name": "Catholic University of Health Sciences",
+      "shortName": "ECUSTA",
+      "category": "university",
+      "logoPath": "/assets/branding/ecusta-emblem.png",
+      "websiteUrl": "https://ecusta.edu.et"
+    },
+    {
+      "id": "aff-emsa-ethiopia",
+      "name": "Ethiopian Medical Students' Association",
+      "shortName": "EMSA-ETHIOPIA",
+      "category": "national_association",
+      "logoPath": "/assets/branding/emsa-ethiopia.png",
+      "websiteUrl": "https://emsa-ethiopia.org"
+    },
+    {
+      "id": "aff-ifmsa",
+      "name": "International Federation of Medical Students' Associations",
+      "shortName": "IFMSA",
+      "category": "international",
+      "logoPath": "/assets/branding/ifmsa.png",
+      "websiteUrl": "https://ifmsa.org"
+    },
+    {
+      "id": "aff-moh",
+      "name": "Ministry of Health Ethiopia",
+      "shortName": "MINISTRY OF HEALTH",
+      "category": "ministry",
+      "logoPath": "/assets/branding/ministry-of-health.png",
+      "websiteUrl": "https://moh.gov.et"
+    },
+    {
+      "id": "aff-st-pauls",
+      "name": "St. Paul's Hospital Millennium Medical College",
+      "shortName": "ST. PAUL'S HOSPITAL",
+      "category": "hospital",
+      "logoPath": "/assets/branding/st-pauls.png",
+      "websiteUrl": "https://sphmmc.edu.et"
+    },
+    {
+      "id": "aff-red-cross",
+      "name": "Ethiopian Red Cross Society",
+      "shortName": "RED CROSS",
+      "category": "humanitarian",
+      "logoPath": "/assets/branding/red-cross.png",
+      "websiteUrl": "https://redcrosseth.org"
+    }
+  ]
+}
