@@ -19,8 +19,8 @@ export function Navbar() {
 
   return (
     <header className="sticky top-0 z-40 w-full border-b border-rule-subtle bg-brand-midnight-deep/90 backdrop-blur-md">
-      {/* Top micro-bar */}
-      <div className="border-b border-rule-subtle/50 bg-brand-midnight py-1 text-[11px] text-content-secondary">
+      {/* Top announcement micro-bar */}
+      <div className="border-b border-rule-subtle/50 bg-brand-midnight py-1.5 text-[11px] text-content-secondary">
         <Container className="flex items-center justify-between">
           <div className="flex items-center gap-2">
             <span className="inline-block h-1.5 w-1.5 rounded-full bg-emerald-400" />
@@ -31,7 +31,7 @@ export function Navbar() {
               href="https://t.me/emsa_ecusta"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center gap-1 text-content-gold hover:underline"
+              className="flex items-center gap-1 text-content-gold hover:underline transition-colors font-medium"
             >
               <span>Official Telegram</span>
               <span>↗</span>
@@ -70,13 +70,8 @@ export function Navbar() {
           ))}
         </nav>
 
-        {/* Desktop Actions */}
+        {/* Desktop Single Primary Action */}
         <div className="hidden md:flex items-center gap-3">
-          <Button variant="outline" size="sm" asChild>
-            <a href="https://t.me/emsa_ecusta" target="_blank" rel="noopener noreferrer">
-              Telegram ↗
-            </a>
-          </Button>
           <Button variant="primary" size="sm">
             GET IN TOUCH
           </Button>
