@@ -1,0 +1,135 @@
+{
+  "projects": [
+    {
+      "id": "proj-scora-maternal-2025",
+      "batchId": "batch_2024_2025",
+      "committeeSlug": "scora",
+      "title": "Annual Maternal Health Campaign",
+      "slug": "annual-maternal-health-campaign",
+      "campaignType": "Campaign Type",
+      "formatType": "field_campaign",
+      "eventDate": "Jan 2025",
+      "summary": "[Short 1-2 sentence summary of the maternal screening outcomes and key community results will be added here]",
+      "longDescription": "[Detailed long-form project background, hospital partnership details, and clinical referrals will be added here]",
+      "partnerOrganization": "[Partner Hospital / NGO Name]",
+      "impactMetrics": [
+        { "count": 600, "label": "Screened" }
+      ],
+      "coverImagePath": "/assets/projects/2024-2025/scora-maternal.jpg",
+      "galleryImages": [
+        "/assets/projects/2024-2025/maternal-1.jpg",
+        "/assets/projects/2024-2025/maternal-2.jpg"
+      ]
+    },
+    {
+      "id": "proj-scoph-hypertension-2024",
+      "batchId": "batch_2024_2025",
+      "committeeSlug": "scoph",
+      "title": "Hypertension Screening Drive",
+      "slug": "hypertension-screening-drive",
+      "campaignType": "NCD Screening",
+      "formatType": "field_campaign",
+      "eventDate": "Nov 2024",
+      "summary": "[Short 1-2 sentence summary of community blood pressure checks and health education outcomes]",
+      "longDescription": "[Detailed description of NCD risk factors, patient counseling methods, and clinical referral protocols]",
+      "partnerOrganization": "[Partner Health Center / NGO]",
+      "impactMetrics": [
+        { "count": 850, "label": "Screened" }
+      ],
+      "coverImagePath": "/assets/projects/2024-2025/scoph-hypertension.jpg",
+      "galleryImages": [
+        "/assets/projects/2024-2025/hypertension-1.jpg"
+      ]
+    },
+    {
+      "id": "proj-scome-suturing-2025",
+      "batchId": "batch_2024_2025",
+      "committeeSlug": "scome",
+      "title": "Surgical Skills & Suturing Clinic",
+      "slug": "surgical-skills-suturing-clinic",
+      "campaignType": "Clinical Skills",
+      "formatType": "workshop",
+      "eventDate": "Mar 2025",
+      "summary": "[Short 1-2 sentence summary of practical hands-on suturing and surgical technique training]",
+      "longDescription": "[Detailed overview of simulation models, instrument handling, knot tying, and sterile protocols taught]",
+      "partnerOrganization": "[Teaching Hospital / Department]",
+      "impactMetrics": [
+        { "count": 120, "label": "Trained" }
+      ],
+      "coverImagePath": "/assets/projects/2024-2025/scome-suturing.jpg",
+      "galleryImages": [
+        "/assets/projects/2024-2025/suturing-1.jpg"
+      ]
+    },
+    {
+      "id": "proj-scora-digital-guide-2026",
+      "batchId": "batch_2025_2026",
+      "committeeSlug": "scora",
+      "title": "Digital Reproductive Health Resource Guide",
+      "slug": "digital-reproductive-health-guide",
+      "campaignType": "Digital Resource",
+      "formatType": "digital_resource",
+      "eventDate": "May 2026",
+      "summary": "[Short summary of digital educational tool providing evidence-based reproductive wellness information]",
+      "externalUrl": "https://www.canva.com/design/sample-guide/view",
+      "partnerOrganization": "[Youth Health Initiative]",
+      "impactMetrics": [
+        { "count": 1500, "label": "Digital Reads" }
+      ],
+      "coverImagePath": "/assets/projects/2025-2026/scora-digital.jpg",
+      "galleryImages": []
+    },
+    {
+      "id": "proj-scope-clerkships-2026",
+      "batchId": "batch_2026_2027",
+      "committeeSlug": "scope",
+      "title": "International Clinical Clerkships & Rotations",
+      "slug": "international-clinical-clerkships",
+      "campaignType": "Clinical Clerkship",
+      "formatType": "hybrid",
+      "eventDate": "Ongoing 2026",
+      "summary": "[Add hospital department shadowing outcomes and bilateral exchange achievements here]",
+      "partnerOrganization": "[Partner Hospitals & IFMSA Chapters]",
+      "impactMetrics": [
+        { "count": 20, "label": "Students Placed Abroad" }
+      ],
+      "coverImagePath": "/assets/projects/2026-2027/scope-exchange.jpg",
+      "galleryImages": []
+    },
+    {
+      "id": "proj-scorp-symposium-2026",
+      "batchId": "batch_2026_2027",
+      "committeeSlug": "scorp",
+      "title": "Human Rights & Medical Ethics Symposium",
+      "slug": "human-rights-medical-ethics-symposium",
+      "campaignType": "Human Rights Day",
+      "formatType": "academic_symposium",
+      "eventDate": "Dec 2026",
+      "summary": "[Add human rights advocacy, healthcare justice, and medical ethics discussion outcomes here]",
+      "partnerOrganization": "[Partner NGOs & Human Rights Bodies]",
+      "impactMetrics": [
+        { "count": 200, "label": "Participants Reached" }
+      ],
+      "coverImagePath": "/assets/projects/2026-2027/scorp-symposium.jpg",
+      "galleryImages": []
+    },
+    {
+      "id": "proj-score-research-2026",
+      "batchId": "batch_2026_2027",
+      "committeeSlug": "score",
+      "title": "Medical Research Methodology & Biostatistics Workshop",
+      "slug": "research-methodology-biostatistics",
+      "campaignType": "Research Methodology",
+      "formatType": "workshop",
+      "eventDate": "Oct 2026",
+      "summary": "[Add hands-on study design, literature review, and referencing skills outcomes for medical students]",
+      "externalUrl": "https://drive.google.com/drive/folders/sample-research-folder",
+      "partnerOrganization": "[ECUSTA Research Directorate]",
+      "impactMetrics": [
+        { "count": 150, "label": "Students Trained" }
+      ],
+      "coverImagePath": "/assets/projects/2026-2027/score-research.jpg",
+      "galleryImages": []
+    }
+  ]
+}

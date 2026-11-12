@@ -1,0 +1,60 @@
+{
+  "archives": [
+    {
+      "batchId": "batch_2026_2027",
+      "label": "2026–2027",
+      "status": "active",
+      "summary": "[Current active academic tenure governing EMSA-ECUSTA medical student initiatives]",
+      "photoAlbum": {
+        "id": "album-2026-2027",
+        "batchId": "batch_2026_2027",
+        "title": "2026–2027 Batch Memories",
+        "photos": [
+          { "id": "p-26-1", "imagePath": "/assets/archive/2026-2027/memory-1.jpg", "caption": "[General Assembly Meeting]" },
+          { "id": "p-26-2", "imagePath": "/assets/archive/2026-2027/memory-2.jpg", "caption": "[Campus Workshop Orientation]" }
+        ]
+      }
+    },
+    {
+      "batchId": "batch_2025_2026",
+      "label": "2025–2026",
+      "status": "archived",
+      "summary": "[Archived tenure records chronicling clinical workshops and outreach programs]",
+      "annualReport": {
+        "title": "2025–2026 Official Chapter Annual Report",
+        "pdfUrl": "/assets/archive/2025-2026/annual-report.pdf",
+        "publishedDate": "July 2026"
+      },
+      "photoAlbum": {
+        "id": "album-2025-2026",
+        "batchId": "batch_2025_2026",
+        "title": "2025–2026 Batch Outreach Memories",
+        "photos": [
+          { "id": "p-25-1", "imagePath": "/assets/archive/2025-2026/outreach-1.jpg", "caption": "[Community Health Outreach]" },
+          { "id": "p-25-2", "imagePath": "/assets/archive/2025-2026/outreach-2.jpg", "caption": "[Peer Research Symposium]" }
+        ]
+      }
+    },
+    {
+      "batchId": "batch_2024_2025",
+      "label": "2024–2025",
+      "status": "frozen",
+      "summary": "[Frozen historical record of milestone campaigns and practical skills clinics]",
+      "annualReport": {
+        "title": "2024–2025 Official Chapter Annual Report",
+        "pdfUrl": "/assets/archive/2024-2025/annual-report.pdf",
+        "publishedDate": "August 2025"
+      },
+      "photoAlbum": {
+        "id": "album-2024-2025",
+        "batchId": "batch_2024_2025",
+        "title": "2024–2025 Batch Photo Album",
+        "photos": [
+          { "id": "p-24-1", "imagePath": "/assets/archive/2024-2025/outreach-1.jpg", "caption": "[Maternal Health Campaign Team]" },
+          { "id": "p-24-2", "imagePath": "/assets/archive/2024-2025/outreach-2.jpg", "caption": "[Hypertension Screening Volunteers]" },
+          { "id": "p-24-3", "imagePath": "/assets/archive/2024-2025/outreach-3.jpg", "caption": "[Suturing Clinic Session]" }
+        ]
+      }
+    }
+  ]
+}
