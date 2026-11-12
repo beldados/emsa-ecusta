@@ -5,3 +5,4 @@ export const fontBenaiah = localFont({
   variable: '--font-benaiah',
   display: 'swap',
 });
+
