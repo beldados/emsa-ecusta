@@ -4,12 +4,12 @@ import { Container } from '@/components/ui/container';
 
 export function Footer() {
   const standingCommittees = [
-    { acronym: 'SCOME', name: 'Education' },
-    { acronym: 'SCOPH', name: 'Public Health' },
-    { acronym: 'SCORA', name: 'Reproductive Health' },
-    { acronym: 'SCOPE', name: 'Exchange' },
-    { acronym: 'SCORP', name: 'Human Rights' },
-    { acronym: 'SCORE', name: 'Research' },
+    { acronym: 'SCOME', href: '/committees/scome' },
+    { acronym: 'SCOPH', href: '/committees/scoph' },
+    { acronym: 'SCORA', href: '/committees/scora' },
+    { acronym: 'SCOPE', href: '/committees/scope' },
+    { acronym: 'SCORP', href: '/committees/scorp' },
+    { acronym: 'SCORE', href: '/committees/score' },
   ];
 
   const navigationLinks = [
@@ -54,13 +54,13 @@ export function Footer() {
       href: 'https://www.threads.net/@emsa.ecusta',
       icon: (
         <svg className="h-4 w-4" fill="currentColor" viewBox="0 0 24 24">
-          <path d="M12 2C6.477 2 2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.879V14.89h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.989C18.343 21.129 22 16.99 22 12c0-5.523-4.477-10-10-10z" />
+          <path d="M12.186 24C5.467 24 0 18.533 0 11.814 0 5.095 5.467 0 12.186 0c6.643 0 11.968 5.253 12.181 11.814h-3.003c-.207-4.908-4.275-8.811-9.178-8.811-5.078 0-9.183 4.105-9.183 9.183 0 5.078 4.105 9.183 9.183 9.183 4.17 0 7.728-2.81 8.828-6.666h-8.828v-3.003h11.94c.05.513.076 1.034.076 1.56C24.202 18.665 18.828 24 12.186 24z" />
         </svg>
       ),
     },
     {
       name: 'Email',
-      href: 'mailto:emsa.ecusta@gmail.com',
+      href: 'mailto:info.emsa.ecusta@gmail.com',
       icon: (
         <svg className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
           <path strokeLinecap="round" strokeLinejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
@@ -70,7 +70,7 @@ export function Footer() {
   ];
 
   return (
-    <footer className="w-full border-t border-rule-subtle bg-brand-midnight text-content-primary">
+    <footer className="w-full bg-brand-midnight text-content-primary">
       <Container className="py-12 lg:py-16">
         <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-4">
           {/* Col 1: Institutional Overview */}
@@ -113,7 +113,7 @@ export function Footer() {
             </ul>
           </div>
 
-          {/* Col 3: Standing Committees */}
+          {/* Col 3: Standing Committees (Clean acronyms only) */}
           <div>
             <h4 className="font-serif text-sm font-semibold uppercase tracking-wider text-brand-gold">
               Standing Committees
@@ -122,13 +122,10 @@ export function Footer() {
               {standingCommittees.map((sc) => (
                 <li key={sc.acronym}>
                   <Link
-                    href={`/committees/${sc.acronym.toLowerCase()}`}
-                    className="group inline-flex items-center gap-1.5 text-content-secondary hover:text-brand-gold transition-colors"
+                    href={sc.href}
+                    className="font-medium text-content-secondary hover:text-brand-gold transition-colors tracking-wide"
                   >
-                    <span className="font-medium text-content-primary group-hover:text-brand-gold transition-colors">
-                      {sc.acronym}
-                    </span>
-                    <span className="text-xs text-content-secondary/80">({sc.name})</span>
+                    {sc.acronym}
                   </Link>
                 </li>
               ))}
@@ -136,8 +133,8 @@ export function Footer() {
           </div>
         </div>
 
-        {/* Social media connections bar */}
-        <div className="mt-12 flex flex-col items-center justify-between gap-4 border-t border-rule-subtle/70 pt-6 sm:flex-row">
+        {/* Social media connections bar (Zero harsh dividing line) */}
+        <div className="mt-12 flex flex-col items-center justify-between gap-4 pt-6 sm:flex-row">
           <div className="flex items-center gap-3">
             <span className="text-xs font-semibold uppercase tracking-wider text-content-secondary">
               Connect:
