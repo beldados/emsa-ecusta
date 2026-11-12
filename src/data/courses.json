@@ -1,0 +1,262 @@
+{
+  "courses": [
+    {
+      "id": "course-graphic-design",
+      "slug": "graphic-design-health-advocacy",
+      "trackCategory": "GRAPHIC DESIGN",
+      "title": "Graphic Design for Health Advocacy",
+      "summary": "Master Canva, poster hierarchy, color theory, and medical campaign visual branding.",
+      "description": "[Practical masterclass on medical visual communication, typography hierarchy, and health awareness branding]",
+      "totalLessons": 10,
+      "capstoneSpec": {
+        "title": "Design a Health Campaign Poster",
+        "instructions": "Using what you learned, create an awareness poster for one of ECUSTA's 6 standing committees (e.g. SCORA Cervical Cancer or SCOPH Hypertension). Focus on one clear call to action, establish intentional visual hierarchy, and prepare your final export link.",
+        "rubricSummary": [
+          "Clear visual hierarchy and call to action",
+          "Medical typography readability and contrast",
+          "Patient ethics and respectful imagery",
+          "EMSA-ECUSTA brand and committee color alignment"
+        ],
+        "supportedPlatforms": ["CANVA", "FIGMA", "GOOGLE_DRIVE"]
+      },
+      "modules": [
+        {
+          "moduleNumber": 1,
+          "title": "01 Foundations",
+          "lessons": [
+            {
+              "id": "gd-lesson-01",
+              "lessonNumber": 1,
+              "title": "Design for health advocacy",
+              "moduleGroup": "01 Foundations",
+              "duration": "08:40",
+              "youtubeVideoId": "dQw4w9WgXcQ",
+              "summary": "[Core principles of public health visual communication]"
+            },
+            {
+              "id": "gd-lesson-02",
+              "lessonNumber": 2,
+              "title": "Color, contrast and accessibility",
+              "moduleGroup": "01 Foundations",
+              "duration": "12:15",
+              "youtubeVideoId": "dQw4w9WgXcQ",
+              "summary": "[Accessibility standards and high-contrast color choices for patient educational materials]"
+            }
+          ]
+        },
+        {
+          "moduleNumber": 2,
+          "title": "02 Visual communication",
+          "lessons": [
+            {
+              "id": "gd-lesson-03",
+              "lessonNumber": 3,
+              "title": "Poster structure & typography",
+              "moduleGroup": "02 Visual communication",
+              "duration": "14:25",
+              "youtubeVideoId": "dQw4w9WgXcQ",
+              "summary": "[Typography rules, scale, and reading direction]"
+            },
+            {
+              "id": "gd-lesson-04",
+              "lessonNumber": 4,
+              "title": "Working with grids and alignment",
+              "moduleGroup": "02 Visual communication",
+              "duration": "11:30",
+              "youtubeVideoId": "dQw4w9WgXcQ",
+              "summary": "[Structuring information with consistent grid alignments]"
+            },
+            {
+              "id": "gd-lesson-05",
+              "lessonNumber": 5,
+              "title": "Choosing purposeful imagery",
+              "moduleGroup": "02 Visual communication",
+              "duration": "16:10",
+              "youtubeVideoId": "dQw4w9WgXcQ",
+              "summary": "[Patient privacy ethics and selecting representative medical visuals]"
+            },
+            {
+              "id": "gd-lesson-06",
+              "lessonNumber": 6,
+              "title": "Creating a clear call to action",
+              "moduleGroup": "02 Visual communication",
+              "duration": "13:20",
+              "youtubeVideoId": "dQw4w9WgXcQ",
+              "summary": "[Designing compelling, unmistakable public health actions]"
+            }
+          ]
+        },
+        {
+          "moduleNumber": 3,
+          "title": "03 Design in practice",
+          "lessons": [
+            {
+              "id": "gd-lesson-07",
+              "lessonNumber": 7,
+              "title": "Designing for digital platforms",
+              "moduleGroup": "03 Design in practice",
+              "duration": "10:45",
+              "youtubeVideoId": "dQw4w9WgXcQ",
+              "summary": "[Optimizing layouts for Telegram and social channels]"
+            },
+            {
+              "id": "gd-lesson-08",
+              "lessonNumber": 8,
+              "title": "Print-ready poster layouts",
+              "moduleGroup": "03 Design in practice",
+              "duration": "15:35",
+              "youtubeVideoId": "dQw4w9WgXcQ",
+              "summary": "[Resolution, bleed margins, and printing preparations]"
+            },
+            {
+              "id": "gd-lesson-09",
+              "lessonNumber": 9,
+              "title": "Peer critique and refinement",
+              "moduleGroup": "03 Design in practice",
+              "duration": "12:40",
+              "youtubeVideoId": "dQw4w9WgXcQ",
+              "summary": "[Evaluating medical posters against communication checklists]"
+            },
+            {
+              "id": "gd-lesson-10",
+              "lessonNumber": 10,
+              "title": "Preparing your final submission",
+              "moduleGroup": "03 Design in practice",
+              "duration": "18:10",
+              "youtubeVideoId": "dQw4w9WgXcQ",
+              "summary": "[Exporting shareable links from Canva or Drive for reviewer evaluation]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "course-photography",
+      "slug": "phone-photography-field-coverage",
+      "trackCategory": "PHOTOGRAPHY",
+      "title": "Phone Photography & Field Coverage",
+      "summary": "Lighting, framing, patient privacy ethics, and event photo capture during medical outreaches.",
+      "description": "[Field visual documentation training for medical outreach and community health programs]",
+      "totalLessons": 4,
+      "capstoneSpec": {
+        "title": "Field Outreach Photo Story",
+        "instructions": "Curate a 5-photo narrative documenting a campus medical event or outreach with ethical captions and verified consent.",
+        "rubricSummary": [
+          "Patient consent and privacy compliance",
+          "Composition and exposure balance",
+          "Narrative storytelling clarity"
+        ],
+        "supportedPlatforms": ["GOOGLE_DRIVE"]
+      },
+      "modules": [
+        {
+          "moduleNumber": 1,
+          "title": "01 Mobile Photojournalism",
+          "lessons": [
+            {
+              "id": "ph-01",
+              "lessonNumber": 1,
+              "title": "Field Exposure and Lighting",
+              "moduleGroup": "01 Mobile Photojournalism",
+              "duration": "09:15",
+              "youtubeVideoId": "dQw4w9WgXcQ",
+              "summary": "[Natural lighting techniques during outdoor clinical outreaches]"
+            },
+            {
+              "id": "ph-02",
+              "lessonNumber": 2,
+              "title": "Patient Consent & Ethical Framing",
+              "moduleGroup": "01 Mobile Photojournalism",
+              "duration": "14:20",
+              "youtubeVideoId": "dQw4w9WgXcQ",
+              "summary": "[Respectful medical framing and protecting patient identities]"
+            },
+            {
+              "id": "ph-03",
+              "lessonNumber": 3,
+              "title": "Documenting Clinical Skills",
+              "moduleGroup": "01 Mobile Photojournalism",
+              "duration": "11:50",
+              "youtubeVideoId": "dQw4w9WgXcQ",
+              "summary": "[Capturing simulation workshops and hands-on peer sessions]"
+            },
+            {
+              "id": "ph-04",
+              "lessonNumber": 4,
+              "title": "Curation and Story Sequencing",
+              "moduleGroup": "01 Mobile Photojournalism",
+              "duration": "10:30",
+              "youtubeVideoId": "dQw4w9WgXcQ",
+              "summary": "[Selecting and captioning photo series for chapter dispatches]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "course-video-editing",
+      "slug": "mobile-video-editing-health-reels",
+      "trackCategory": "VIDEO PRODUCTION",
+      "title": "Mobile Video Editing for Health Reels",
+      "summary": "Fast video trimming, subtitle generation, and video pacing for public health advocacy.",
+      "description": "[Short-form medical video production for youth health education and evidence-based messaging]",
+      "totalLessons": 6,
+      "capstoneSpec": {
+        "title": "Create a 60-Second Public Health Reel",
+        "instructions": "Script, edit, subtitle, and submit a 60-second video clarifying a medical myth (e.g. antibiotic misuse or hypertension prevention).",
+        "rubricSummary": [
+          "Accurate medical evidence messaging",
+          "Pacing and retention hooks",
+          "Readable subtitles and clear audio"
+        ],
+        "supportedPlatforms": ["YOUTUBE", "GOOGLE_DRIVE"]
+      },
+      "modules": [
+        {
+          "moduleNumber": 1,
+          "title": "01 Short-Form Video Craft",
+          "lessons": [
+            { "id": "ve-01", "lessonNumber": 1, "title": "Scripting 60-Second Health Hooks", "moduleGroup": "01 Short-Form Video Craft", "duration": "07:45", "youtubeVideoId": "dQw4w9WgXcQ" },
+            { "id": "ve-02", "lessonNumber": 2, "title": "Mobile Video Editing Tools", "moduleGroup": "01 Short-Form Video Craft", "duration": "13:10", "youtubeVideoId": "dQw4w9WgXcQ" },
+            { "id": "ve-03", "lessonNumber": 3, "title": "Dynamic Pacing & B-Roll", "moduleGroup": "01 Short-Form Video Craft", "duration": "12:00", "youtubeVideoId": "dQw4w9WgXcQ" },
+            { "id": "ve-04", "lessonNumber": 4, "title": "Auto-Subtitles and Typography", "moduleGroup": "01 Short-Form Video Craft", "duration": "10:25", "youtubeVideoId": "dQw4w9WgXcQ" },
+            { "id": "ve-05", "lessonNumber": 5, "title": "Sound Design and Audio Clarity", "moduleGroup": "01 Short-Form Video Craft", "duration": "08:50", "youtubeVideoId": "dQw4w9WgXcQ" },
+            { "id": "ve-06", "lessonNumber": 6, "title": "Exporting High-Quality Vertical Video", "moduleGroup": "01 Short-Form Video Craft", "duration": "09:30", "youtubeVideoId": "dQw4w9WgXcQ" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "course-project-management",
+      "slug": "project-management-medical-outreach",
+      "trackCategory": "LEADERSHIP",
+      "title": "Project Management for Medical Outreach",
+      "summary": "Budget planning, volunteer coordination, logistics, and organizing hospital health drives.",
+      "description": "[Operational training on planning, budgeting, executing, and auditing committee health interventions]",
+      "totalLessons": 4,
+      "capstoneSpec": {
+        "title": "Draft a Committee Intervention Proposal",
+        "instructions": "Draft a complete project proposal (Objective, Timeline, Volunteer Plan, Logistics, and Budget) for a community health initiative.",
+        "rubricSummary": [
+          "Feasible timeline and volunteer plan",
+          "Measurable community impact KPIs",
+          "Clear logistics and risk mitigation"
+        ],
+        "supportedPlatforms": ["GOOGLE_DRIVE", "CANVA"]
+      },
+      "modules": [
+        {
+          "moduleNumber": 1,
+          "title": "01 Project Architecture",
+          "lessons": [
+            { "id": "pm-01", "lessonNumber": 1, "title": "Needs Assessment & Community Scoping", "moduleGroup": "01 Project Architecture", "duration": "11:00", "youtubeVideoId": "dQw4w9WgXcQ" },
+            { "id": "pm-02", "lessonNumber": 2, "title": "Budgeting and Resource Allocation", "moduleGroup": "01 Project Architecture", "duration": "15:20", "youtubeVideoId": "dQw4w9WgXcQ" },
+            { "id": "pm-03", "lessonNumber": 3, "title": "Volunteer Logistics & Safety Protocols", "moduleGroup": "01 Project Architecture", "duration": "14:15", "youtubeVideoId": "dQw4w9WgXcQ" },
+            { "id": "pm-04", "lessonNumber": 4, "title": "Impact Evaluation and Auditing", "moduleGroup": "01 Project Architecture", "duration": "12:40", "youtubeVideoId": "dQw4w9WgXcQ" }
+          ]
+        }
+      ]
+    }
+  ]
+}
+
