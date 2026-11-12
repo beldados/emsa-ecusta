@@ -1,0 +1,76 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    color-scheme: dark;
+
+    /* Surface & Canvas Tokens (Dark Mode Default) */
+    --color-bg-canvas: #050b14;
+    --color-bg-surface: #0f1b33;
+    --color-bg-surface-elevated: #1b2a4a;
+
+    /* Typography & Foreground Tokens */
+    --color-text-primary: #f4f1ea;
+    --color-text-secondary: #cbd5e1;
+    --color-text-gold: #d4af37;
+
+    /* Borders & Rules */
+    --color-border-subtle: rgba(212, 175, 55, 0.16);
+    --color-border-gold: #b8972a;
+
+    /* Semantic Status */
+    --color-status-success: #10b981;
+    --color-status-warning: #d4af37;
+    --color-status-danger: #9b1b30;
+  }
+
+  .light,
+  [data-theme='light'] {
+    color-scheme: light;
+
+    /* Surface & Canvas Tokens (Light Mode Parchment) */
+    --color-bg-canvas: #faf8f5;
+    --color-bg-surface: #ffffff;
+    --color-bg-surface-elevated: #f3efe6;
+
+    /* Typography & Foreground Tokens */
+    --color-text-primary: #0f1b33;
+    --color-text-secondary: #334155;
+    --color-text-gold: #9e7b16;
+
+    /* Borders & Rules */
+    --color-border-subtle: rgba(27, 42, 74, 0.14);
+    --color-border-gold: #b8972a;
+
+    /* Semantic Status */
+    --color-status-success: #047857;
+    --color-status-warning: #b45309;
+    --color-status-danger: #9b1b30;
+  }
+
+  html {
+    background-color: var(--color-bg-canvas);
+    color: var(--color-text-primary);
+  }
+
+  body {
+    background-color: var(--color-bg-canvas);
+    color: var(--color-text-primary);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  ::selection {
+    background-color: rgba(212, 175, 55, 0.25);
+    color: var(--color-text-primary);
+  }
+
+  :focus-visible {
+    outline: 2px solid #d4af37;
+    outline-offset: 2px;
+  }
+}

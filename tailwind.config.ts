@@ -42,8 +42,16 @@ const config: Config = {
         },
       },
       fontFamily: {
-        serif: ['var(--font-serif)', 'serif'],
-        sans: ['var(--font-sans)', 'sans-serif'],
+        brand: ['var(--font-benahia)', 'serif'],
+        serif: ['var(--font-benahia)', 'serif'],
+        sans: [
+          'system-ui',
+          '-apple-system',
+          'BlinkMacSystemFont',
+          'Segoe UI',
+          'Roboto',
+          'sans-serif',
+        ],
       },
     },
   },
