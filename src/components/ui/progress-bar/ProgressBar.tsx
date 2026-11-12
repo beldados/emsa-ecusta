@@ -30,3 +30,4 @@ export function ProgressBar({ value, variant = 'gold', className, ...props }: Pr
     </div>
   );
 }
+
