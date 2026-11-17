@@ -4,232 +4,70 @@
       "id": "scome",
       "acronym": "SCOME",
       "name": "Medical Education",
-      "shortDescription": "[Brief 1-line description of Medical Education committee focus]",
-      "fullMission": "[Full mission statement for SCOME will be placed here]",
-      "logoPath": "/assets/committees/scome/scome.jpg",
-      "colorTheme": {
-        "primary": "#3B82F6",
-        "badgeBg": "bg-blue-500/15",
-        "accentGlow": "shadow-blue-500/20"
-      },
-      "telegramJoinUrl": "https://t.me/emsa_ecusta_scome"
+      "shortDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "fullMission": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.",
+      "logoPath": "/assets/samples/sample-image.jpg",
+      "colorTheme": { "primary": "#3B82F6", "badgeBg": "bg-blue-500/15", "accentGlow": "shadow-blue-500/20" },
+      "telegramJoinUrl": "https://t.me/emsa_ecusta"
     },
     {
       "id": "scoph",
       "acronym": "SCOPH",
       "name": "Public Health",
-      "shortDescription": "[Brief 1-line description of Public Health committee focus]",
-      "fullMission": "[Full mission statement for SCOPH will be placed here]",
-      "logoPath": "/assets/committees/scoph/scoph.jpg",
-      "colorTheme": {
-        "primary": "#F97316",
-        "badgeBg": "bg-orange-500/15",
-        "accentGlow": "shadow-orange-500/20"
-      },
-      "telegramJoinUrl": "https://t.me/emsa_ecusta_scoph"
+      "shortDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "fullMission": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.",
+      "logoPath": "/assets/samples/sample-image.jpg",
+      "colorTheme": { "primary": "#F97316", "badgeBg": "bg-orange-500/15", "accentGlow": "shadow-orange-500/20" },
+      "telegramJoinUrl": "https://t.me/emsa_ecusta"
     },
     {
       "id": "scora",
       "acronym": "SCORA",
       "name": "Sexual & Reproductive Health and Rights",
-      "shortDescription": "[Brief 1-line description of Reproductive Health committee focus]",
-      "fullMission": "[Full mission statement for SCORA will be placed here]",
-      "logoPath": "/assets/committees/scora/scora.jpg",
-      "colorTheme": {
-        "primary": "#EC4899",
-        "badgeBg": "bg-pink-500/15",
-        "accentGlow": "shadow-pink-500/20"
-      },
-      "telegramJoinUrl": "https://t.me/emsa_ecusta_scora"
+      "shortDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "fullMission": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.",
+      "logoPath": "/assets/samples/sample-image.jpg",
+      "colorTheme": { "primary": "#EC4899", "badgeBg": "bg-pink-500/15", "accentGlow": "shadow-pink-500/20" },
+      "telegramJoinUrl": "https://t.me/emsa_ecusta"
     },
     {
       "id": "scope",
       "acronym": "SCOPE",
       "name": "Professional Exchange",
-      "shortDescription": "[Brief 1-line description of Professional Exchange committee focus]",
-      "fullMission": "[Full mission statement for SCOPE will be placed here]",
-      "logoPath": "/assets/committees/scope/scope.jpg",
-      "colorTheme": {
-        "primary": "#06B6D4",
-        "badgeBg": "bg-cyan-500/15",
-        "accentGlow": "shadow-cyan-500/20"
-      },
-      "telegramJoinUrl": "https://t.me/emsa_ecusta_scope"
+      "shortDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "fullMission": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.",
+      "logoPath": "/assets/samples/sample-image.jpg",
+      "colorTheme": { "primary": "#06B6D4", "badgeBg": "bg-cyan-500/15", "accentGlow": "shadow-cyan-500/20" },
+      "telegramJoinUrl": "https://t.me/emsa_ecusta"
     },
     {
       "id": "scorp",
       "acronym": "SCORP",
       "name": "Human Rights & Peace",
-      "shortDescription": "[Brief 1-line description of Human Rights & Peace committee focus]",
-      "fullMission": "[Full mission statement for SCORP will be placed here]",
-      "logoPath": "/assets/committees/scorp/scorp.jpg",
-      "colorTheme": {
-        "primary": "#10B981",
-        "badgeBg": "bg-emerald-500/15",
-        "accentGlow": "shadow-emerald-500/20"
-      },
-      "telegramJoinUrl": "https://t.me/emsa_ecusta_scorp"
+      "shortDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "fullMission": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.",
+      "logoPath": "/assets/samples/sample-image.jpg",
+      "colorTheme": { "primary": "#10B981", "badgeBg": "bg-emerald-500/15", "accentGlow": "shadow-emerald-500/20" },
+      "telegramJoinUrl": "https://t.me/emsa_ecusta"
     },
     {
       "id": "score",
       "acronym": "SCORE",
       "name": "Research Exchange",
-      "shortDescription": "[Brief 1-line description of Research Exchange committee focus]",
-      "fullMission": "[Full mission statement for SCORE will be placed here]",
-      "logoPath": "/assets/committees/score/score.jpg",
-      "colorTheme": {
-        "primary": "#8B5CF6",
-        "badgeBg": "bg-purple-500/15",
-        "accentGlow": "shadow-purple-500/20"
-      },
-      "telegramJoinUrl": "https://t.me/emsa_ecusta_score"
+      "shortDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "fullMission": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.",
+      "logoPath": "/assets/samples/sample-image.jpg",
+      "colorTheme": { "primary": "#8B5CF6", "badgeBg": "bg-purple-500/15", "accentGlow": "shadow-purple-500/20" },
+      "telegramJoinUrl": "https://t.me/emsa_ecusta"
     }
   ],
   "committeeLeadership": [
-    {
-      "id": "ldr-scome-director",
-      "batchId": "batch_2026_2027",
-      "committeeSlug": "scome",
-      "isDirector": true,
-      "officialTitle": "LOCAL OFFICER ON MEDICAL EDUCATION (LOME)",
-      "fullName": "[Director Full Name]",
-      "batchTier": "Clinical Year I",
-      "portraitPath": "/assets/leadership/2026-2027/scome-1.jpg",
-      "socialLinks": { "telegram": "https://t.me/lome_ecusta", "email": "lome.emsa.ecusta@gmail.com" },
-      "rankOrder": 1
-    },
-    {
-      "id": "ldr-scome-coord-1",
-      "batchId": "batch_2026_2027",
-      "committeeSlug": "scome",
-      "isDirector": false,
-      "officialTitle": "Academic Skills Coordinator",
-      "fullName": "[Officer Full Name]",
-      "batchTier": "Pre-Clinical Year II",
-      "portraitPath": "/assets/leadership/2026-2027/scome-2.jpg",
-      "socialLinks": { "email": "scome.skills@gmail.com" },
-      "rankOrder": 2
-    },
-    {
-      "id": "ldr-scome-coord-2",
-      "batchId": "batch_2026_2027",
-      "committeeSlug": "scome",
-      "isDirector": false,
-      "officialTitle": "Clinical Workshop Lead",
-      "fullName": "[Officer Full Name]",
-      "batchTier": "Pre-Clinical Year I",
-      "portraitPath": "/assets/leadership/2026-2027/scome-3.jpg",
-      "socialLinks": { "email": "scome.workshop@gmail.com" },
-      "rankOrder": 3
-    },
-    {
-      "id": "ldr-scorp-director",
-      "batchId": "batch_2026_2027",
-      "committeeSlug": "scorp",
-      "isDirector": true,
-      "officialTitle": "LOCAL OFFICER ON HUMAN RIGHTS & PEACE (LORP)",
-      "fullName": "[Director Full Name]",
-      "batchTier": "Clinical Year I",
-      "portraitPath": "/assets/leadership/2026-2027/scorp-1.jpg",
-      "socialLinks": { "telegram": "https://t.me/lorp_ecusta", "email": "lorp.emsa.ecusta@gmail.com" },
-      "rankOrder": 1
-    },
-    {
-      "id": "ldr-scorp-coord-1",
-      "batchId": "batch_2026_2027",
-      "committeeSlug": "scorp",
-      "isDirector": false,
-      "officialTitle": "Human Rights Advocacy Officer",
-      "fullName": "[Officer Full Name]",
-      "batchTier": "Pre-Clinical Year II",
-      "portraitPath": "/assets/leadership/2026-2027/scorp-2.jpg",
-      "socialLinks": { "email": "scorp.advocacy@gmail.com" },
-      "rankOrder": 2
-    },
-    {
-      "id": "ldr-scope-dir-2024",
-      "batchId": "batch_2024_2025",
-      "committeeSlug": "scope",
-      "isDirector": true,
-      "officialTitle": "LOCAL EXCHANGE OFFICER (LEO)",
-      "fullName": "Rediet Gizachew",
-      "batchTier": "Clinical Year I",
-      "portraitPath": "/assets/leadership/2024-2025/scope-director.jpg",
-      "socialLinks": {
-        "telegram": "https://t.me/scope_ecusta",
-        "email": "scope.ecusta@gmail.com"
-      },
-      "rankOrder": 1
-    },
-    {
-      "id": "ldr-scope-vdir-2024",
-      "batchId": "batch_2024_2025",
-      "committeeSlug": "scope",
-      "isDirector": false,
-      "officialTitle": "Vice-Director",
-      "fullName": "Selamawit Sisay",
-      "batchTier": "Clinical Year I",
-      "portraitPath": "/assets/leadership/2024-2025/scope-vice-director.jpg",
-      "socialLinks": {
-        "email": "scope.ecusta@gmail.com"
-      },
-      "rankOrder": 2
-    },
-    {
-      "id": "ldr-scope-sec-2024",
-      "batchId": "batch_2024_2025",
-      "committeeSlug": "scope",
-      "isDirector": false,
-      "officialTitle": "Secretary",
-      "fullName": "Lidia Alemu",
-      "batchTier": "Pre-Clinical Year II",
-      "portraitPath": "/assets/leadership/2024-2025/scope-secretary.jpg",
-      "socialLinks": {
-        "email": "scope.ecusta@gmail.com"
-      },
-      "rankOrder": 3
-    },
-    {
-      "id": "ldr-scope-proj-2024",
-      "batchId": "batch_2024_2025",
-      "committeeSlug": "scope",
-      "isDirector": false,
-      "officialTitle": "Project Officer",
-      "fullName": "Hanan Belete",
-      "batchTier": "Pre-Clinical Year II",
-      "portraitPath": "/assets/leadership/2024-2025/scope-project-officer.jpg",
-      "socialLinks": {
-        "email": "scope.ecusta@gmail.com"
-      },
-      "rankOrder": 4
-    },
-    {
-      "id": "ldr-scope-fund-2024",
-      "batchId": "batch_2024_2025",
-      "committeeSlug": "scope",
-      "isDirector": false,
-      "officialTitle": "Fundraising Director",
-      "fullName": "Hussniya Shemsu",
-      "batchTier": "Pre-Clinical Year II",
-      "portraitPath": "/assets/leadership/2024-2025/scope-fundraising.jpg",
-      "socialLinks": {
-        "email": "scope.ecusta@gmail.com"
-      },
-      "rankOrder": 5
-    },
-    {
-      "id": "ldr-scope-pr-2024",
-      "batchId": "batch_2024_2025",
-      "committeeSlug": "scope",
-      "isDirector": false,
-      "officialTitle": "Public Relations Director",
-      "fullName": "Meron Shumet",
-      "batchTier": "Pre-Clinical Year I",
-      "portraitPath": "/assets/leadership/2024-2025/scope-pr.jpg",
-      "socialLinks": {
-        "email": "scope.ecusta@gmail.com"
-      },
-      "rankOrder": 6
-    }
+    { "id": "ldr-scome-1", "batchId": "batch_2026_2027", "committeeSlug": "scome", "isDirector": true, "officialTitle": "LOCAL OFFICER ON MEDICAL EDUCATION (LOME)", "fullName": "Sample LOME Director", "batchTier": "Clinical Year I", "portraitPath": "/assets/samples/sample-image.jpg", "socialLinks": { "telegram": "https://t.me/sample_officer", "email": "scome.sample@ecusta.edu.et" }, "rankOrder": 1 },
+    { "id": "ldr-scome-2", "batchId": "batch_2026_2027", "committeeSlug": "scome", "isDirector": false, "officialTitle": "Academic Skills Coordinator", "fullName": "Sample Coordinator Name", "batchTier": "Pre-Clinical Year II", "portraitPath": "/assets/samples/sample-image.jpg", "socialLinks": { "email": "coord.sample@ecusta.edu.et" }, "rankOrder": 2 },
+    { "id": "ldr-scoph-1", "batchId": "batch_2026_2027", "committeeSlug": "scoph", "isDirector": true, "officialTitle": "LOCAL PUBLIC HEALTH OFFICER (LPO)", "fullName": "Sample LPO Director", "batchTier": "Clinical Year I", "portraitPath": "/assets/samples/sample-image.jpg", "socialLinks": { "telegram": "https://t.me/sample_officer", "email": "scoph.sample@ecusta.edu.et" }, "rankOrder": 1 },
+    { "id": "ldr-scora-1", "batchId": "batch_2026_2027", "committeeSlug": "scora", "isDirector": true, "officialTitle": "LOCAL OFFICER ON REPRODUCTIVE HEALTH (LORA)", "fullName": "Sample LORA Director", "batchTier": "Clinical Year I", "portraitPath": "/assets/samples/sample-image.jpg", "socialLinks": { "telegram": "https://t.me/sample_officer", "email": "scora.sample@ecusta.edu.et" }, "rankOrder": 1 },
+    { "id": "ldr-scope-1", "batchId": "batch_2026_2027", "committeeSlug": "scope", "isDirector": true, "officialTitle": "LOCAL EXCHANGE OFFICER (LEO)", "fullName": "Sample LEO Director", "batchTier": "Clinical Year I", "portraitPath": "/assets/samples/sample-image.jpg", "socialLinks": { "telegram": "https://t.me/sample_officer", "email": "scope.sample@ecusta.edu.et" }, "rankOrder": 1 },
+    { "id": "ldr-scorp-1", "batchId": "batch_2026_2027", "committeeSlug": "scorp", "isDirector": true, "officialTitle": "LOCAL OFFICER ON HUMAN RIGHTS & PEACE (LORP)", "fullName": "Sample LORP Director", "batchTier": "Clinical Year I", "portraitPath": "/assets/samples/sample-image.jpg", "socialLinks": { "telegram": "https://t.me/sample_officer", "email": "scorp.sample@ecusta.edu.et" }, "rankOrder": 1 },
+    { "id": "ldr-score-1", "batchId": "batch_2026_2027", "committeeSlug": "score", "isDirector": true, "officialTitle": "LOCAL OFFICER ON RESEARCH EXCHANGE (LORE)", "fullName": "Sample LORE Director", "batchTier": "Clinical Year I", "portraitPath": "/assets/samples/sample-image.jpg", "socialLinks": { "telegram": "https://t.me/sample_officer", "email": "score.sample@ecusta.edu.et" }, "rankOrder": 1 }
   ]
 }

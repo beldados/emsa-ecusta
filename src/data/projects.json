@@ -1,252 +1,100 @@
 {
   "projects": [
     {
-      "id": "proj-scora-maternal-2025",
+      "id": "proj-scora-1",
       "batchId": "batch_2024_2025",
       "committeeSlug": "scora",
-      "title": "Annual Maternal Health Campaign",
-      "slug": "annual-maternal-health-campaign",
-      "campaignType": "Campaign Type",
+      "title": "Sample Maternal Health Screening Campaign",
+      "slug": "sample-maternal-health-campaign",
+      "campaignType": "Maternal Screening",
       "formatType": "field_campaign",
       "eventDate": "Jan 2025",
-      "summary": "[Short 1-2 sentence summary of the maternal screening outcomes and key community results will be added here]",
-      "longDescription": "[Detailed long-form project background, hospital partnership details, and clinical referrals will be added here]",
-      "partnerOrganization": "[Partner Hospital / NGO Name]",
-      "impactMetrics": [
-        { "count": 600, "label": "Screened" }
-      ],
-      "coverImagePath": "/assets/projects/2024-2025/scora-maternal.jpg",
-      "galleryImages": [
-        "/assets/projects/2024-2025/maternal-1.jpg",
-        "/assets/projects/2024-2025/maternal-2.jpg"
-      ]
+      "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.",
+      "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.",
+      "partnerOrganization": "Sample Partner Hospital",
+      "impactMetrics": [{ "count": 600, "label": "Screened" }],
+      "coverImagePath": "/assets/samples/sample-image.jpg",
+      "galleryImages": ["/assets/samples/sample-image.jpg"]
     },
     {
-      "id": "proj-scoph-hypertension-2024",
+      "id": "proj-scoph-1",
       "batchId": "batch_2024_2025",
       "committeeSlug": "scoph",
-      "title": "Hypertension Screening Drive",
-      "slug": "hypertension-screening-drive",
+      "title": "Sample Hypertension & Diabetes Screening Drive",
+      "slug": "sample-hypertension-screening-drive",
       "campaignType": "NCD Screening",
       "formatType": "field_campaign",
       "eventDate": "Nov 2024",
-      "summary": "[Short 1-2 sentence summary of community blood pressure checks and health education outcomes]",
-      "longDescription": "[Detailed description of NCD risk factors, patient counseling methods, and clinical referral protocols]",
-      "partnerOrganization": "[Partner Health Center / NGO]",
-      "impactMetrics": [
-        { "count": 850, "label": "Screened" }
-      ],
-      "coverImagePath": "/assets/projects/2024-2025/scoph-hypertension.jpg",
-      "galleryImages": [
-        "/assets/projects/2024-2025/hypertension-1.jpg"
-      ]
+      "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.",
+      "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.",
+      "partnerOrganization": "Sample Health Center",
+      "impactMetrics": [{ "count": 850, "label": "Screened" }],
+      "coverImagePath": "/assets/samples/sample-image.jpg",
+      "galleryImages": ["/assets/samples/sample-image.jpg"]
     },
     {
-      "id": "proj-scome-suturing-2025",
+      "id": "proj-scome-1",
       "batchId": "batch_2024_2025",
       "committeeSlug": "scome",
-      "title": "Surgical Skills & Suturing Clinic",
-      "slug": "surgical-skills-suturing-clinic",
+      "title": "Sample Surgical Skills & Suturing Clinic",
+      "slug": "sample-surgical-skills-suturing-clinic",
       "campaignType": "Clinical Skills",
       "formatType": "workshop",
       "eventDate": "Mar 2025",
-      "summary": "[Short 1-2 sentence summary of practical hands-on suturing and surgical technique training]",
-      "longDescription": "[Detailed overview of simulation models, instrument handling, knot tying, and sterile protocols taught]",
-      "partnerOrganization": "[Teaching Hospital / Department]",
-      "impactMetrics": [
-        { "count": 120, "label": "Trained" }
-      ],
-      "coverImagePath": "/assets/projects/2024-2025/scome-suturing.jpg",
-      "galleryImages": [
-        "/assets/projects/2024-2025/suturing-1.jpg"
-      ]
+      "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.",
+      "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.",
+      "partnerOrganization": "Sample Medical Faculty",
+      "impactMetrics": [{ "count": 120, "label": "Trained" }],
+      "coverImagePath": "/assets/samples/sample-image.jpg",
+      "galleryImages": ["/assets/samples/sample-image.jpg"]
     },
     {
-      "id": "proj-scope-acls-2025",
-      "batchId": "batch_2024_2025",
-      "committeeSlug": "scope",
-      "title": "Advanced Cardiac Life Support (ACLS) Training for Interns",
-      "slug": "acls-training-for-interns",
-      "campaignType": "Clinical Training",
-      "formatType": "workshop",
-      "eventDate": "March 2024",
-      "summary": "Hands-on certified emergency cardiac resuscitation and airway management simulation training for graduating medical interns.",
-      "longDescription": "Conducted in collaboration with certified American Heart Association (AHA) instructors, equipping interns with practical life-saving protocols and AHA resuscitation certifications.",
-      "partnerOrganization": "American Heart Association (AHA)",
-      "impactMetrics": [
-        { "count": 35, "label": "Interns Certified" }
-      ],
-      "coverImagePath": "/assets/projects/2024-2025/acls-training-flyer.jpg",
-      "galleryImages": [
-        "/assets/projects/2024-2025/acls-hands-on-1.jpg",
-        "/assets/projects/2024-2025/acls-group.jpg"
-      ]
-    },
-    {
-      "id": "proj-scope-ramadan-2024",
-      "batchId": "batch_2024_2025",
-      "committeeSlug": "scope",
-      "title": "Ramadan in the Medicine World: Iftar & Physician Mentorship",
-      "slug": "ramadan-in-medical-world",
-      "campaignType": "Community & Mentorship",
-      "formatType": "workshop",
-      "eventDate": "April 18, 2023",
-      "summary": "Interfaith community iftar combining clinical career guidance and interviews with senior consultants and university faculty.",
-      "longDescription": "Hosted at Eliana Hotel, featuring guest interviews with Dr. Muhidin Abdo (Ethio TEBIB Medical Director), Dr. Abdulsemed Mohammed (AAU Gastroenterologist), and Dr. Amanuel Damie (ECUSTA Pathology Lecturer).",
-      "partnerOrganization": "ECUSTA Faculty & Ethio TEBIB Hospital",
-      "impactMetrics": [
-        { "count": 80, "label": "Attendees" }
-      ],
-      "coverImagePath": "/assets/projects/2024-2025/ramadan-medical-flyer.jpg",
-      "galleryImages": [
-        "/assets/projects/2024-2025/ramadan-iftar-1.jpg",
-        "/assets/projects/2024-2025/ramadan-panel.jpg"
-      ]
-    },
-    {
-      "id": "proj-scope-thinking-box-2024",
-      "batchId": "batch_2024_2025",
-      "committeeSlug": "scope",
-      "title": "Thinking Outside the Box: Multidimensional Healthcare Leadership",
-      "slug": "thinking-outside-the-box-symposium",
-      "campaignType": "Academic Symposium",
-      "formatType": "academic_symposium",
-      "eventDate": "April 1, 2023",
-      "summary": "Campus leadership forum exploring physician entrepreneurship, non-linear medical careers, and professional excellence.",
-      "longDescription": "Exclusive inter-committee panel hosted with Dr. Misiker Kassahun, Dr. Zenebe Gedlie, and Mr. Jodahe Bezabih sharing practical insights on medical leadership and healthcare innovation.",
-      "partnerOrganization": "EMSA-ECUSTA Standing Committees",
-      "impactMetrics": [
-        { "count": 120, "label": "Participants Reached" }
-      ],
-      "coverImagePath": "/assets/projects/2024-2025/thinking-outside-box-flyer.jpg",
-      "galleryImages": [
-        "/assets/projects/2024-2025/panel-stage.jpg"
-      ]
-    },
-    {
-      "id": "proj-scope-intl-webinar-2024",
-      "batchId": "batch_2024_2025",
-      "committeeSlug": "scope",
-      "title": "First International Exchange Webinar: Global Medical Perspectives",
-      "slug": "first-international-exchange-webinar",
-      "campaignType": "International Webinar",
-      "formatType": "digital_resource",
-      "eventDate": "March 19, 2023",
-      "summary": "Cross-cultural virtual exchange connecting ECUSTA students with international SCOPE peers to explore global healthcare systems.",
-      "longDescription": "In collaboration with SCOPE members from Kazakhstan, Indonesia, the Czech Republic, and Peru, discussing exchange program entry requirements and international clinical clerkship preparation.",
-      "externalUrl": "https://meet.google.com/fui-nxbj-dja",
-      "partnerOrganization": "IFMSA International Chapters",
-      "impactMetrics": [
-        { "count": 65, "label": "Global Participants" }
-      ],
-      "coverImagePath": "/assets/projects/2024-2025/international-webinar-flyer.jpg",
-      "galleryImages": []
-    },
-    {
-      "id": "proj-scope-uhc-webinar-2024",
-      "batchId": "batch_2024_2025",
-      "committeeSlug": "scope",
-      "title": "Universal Health Coverage: Live Discourse with CIMSA Indonesia",
-      "slug": "universal-health-coverage-webinar",
-      "campaignType": "Live Digital Panel",
-      "formatType": "digital_resource",
-      "eventDate": "March 27, 2023",
-      "summary": "Comparative epidemiological session discussing universal health coverage challenges and public-private healthcare partnerships.",
-      "longDescription": "Live broadcast between Radiet Teka (SCOPE Ethiopia) and Olga Novena (CIMSA UGM Indonesia), analyzing health equity and systemic access barriers.",
-      "externalUrl": "https://instagram.com/cimsaugm",
-      "partnerOrganization": "CIMSA UGM (Indonesia)",
-      "impactMetrics": [
-        { "count": 90, "label": "Live Stream Views" }
-      ],
-      "coverImagePath": "/assets/projects/2024-2025/uhc-webinar-flyer.jpg",
-      "galleryImages": []
-    },
-    {
-      "id": "proj-scope-career-stories-2024",
-      "batchId": "batch_2024_2025",
-      "committeeSlug": "scope",
-      "title": "Career Development Through Professional Exchange",
-      "slug": "career-development-professional-exchange",
-      "campaignType": "Webinar & Testimony",
-      "formatType": "digital_resource",
-      "eventDate": "March 12, 2023",
-      "summary": "Testimonial session analyzing clinical clerkship benefits, hospital matching strategies, and international alumni success stories.",
-      "longDescription": "Featuring testimonies from Abigael Abiy (Tikur-Anbesa Specialized Hospital, AAU) and Melat Mesfin (University of Gondar Hospital).",
-      "partnerOrganization": "EMSA-Ethiopia SCOPE",
-      "impactMetrics": [
-        { "count": 110, "label": "Attendees" }
-      ],
-      "coverImagePath": "/assets/projects/2024-2025/career-webinar-flyer.jpg",
-      "galleryImages": []
-    },
-    {
-      "id": "proj-scora-digital-guide-2026",
+      "id": "proj-scope-1",
       "batchId": "batch_2025_2026",
-      "committeeSlug": "scora",
-      "title": "Digital Reproductive Health Resource Guide",
-      "slug": "digital-reproductive-health-guide",
-      "campaignType": "Digital Resource",
-      "formatType": "digital_resource",
-      "eventDate": "May 2026",
-      "summary": "[Short summary of digital educational tool providing evidence-based reproductive wellness information]",
-      "externalUrl": "https://www.canva.com/design/sample-guide/view",
-      "partnerOrganization": "[Youth Health Initiative]",
-      "impactMetrics": [
-        { "count": 1500, "label": "Digital Reads" }
-      ],
-      "coverImagePath": "/assets/projects/2025-2026/scora-digital.jpg",
-      "galleryImages": []
-    },
-    {
-      "id": "proj-scope-clerkships-2026",
-      "batchId": "batch_2026_2027",
       "committeeSlug": "scope",
-      "title": "International Clinical Clerkships & Rotations",
-      "slug": "international-clinical-clerkships",
+      "title": "Sample International Clerkships & Rotations",
+      "slug": "sample-international-clerkships",
       "campaignType": "Clinical Clerkship",
       "formatType": "hybrid",
-      "eventDate": "Ongoing 2026",
-      "summary": "[Add hospital department shadowing outcomes and bilateral exchange achievements here]",
-      "partnerOrganization": "[Partner Hospitals & IFMSA Chapters]",
-      "impactMetrics": [
-        { "count": 20, "label": "Students Placed Abroad" }
-      ],
-      "coverImagePath": "/assets/projects/2026-2027/scope-exchange.jpg",
+      "eventDate": "Ongoing",
+      "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.",
+      "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.",
+      "partnerOrganization": "Sample International Chapters",
+      "impactMetrics": [{ "count": 25, "label": "Students Placed" }],
+      "coverImagePath": "/assets/samples/sample-image.jpg",
       "galleryImages": []
     },
     {
-      "id": "proj-scorp-symposium-2026",
+      "id": "proj-scorp-1",
       "batchId": "batch_2026_2027",
       "committeeSlug": "scorp",
-      "title": "Human Rights & Medical Ethics Symposium",
-      "slug": "human-rights-medical-ethics-symposium",
-      "campaignType": "Human Rights Day",
+      "title": "Sample Human Rights & Medical Ethics Symposium",
+      "slug": "sample-medical-ethics-symposium",
+      "campaignType": "Human Rights",
       "formatType": "academic_symposium",
       "eventDate": "Dec 2026",
-      "summary": "[Add human rights advocacy, healthcare justice, and medical ethics discussion outcomes here]",
-      "partnerOrganization": "[Partner NGOs & Human Rights Bodies]",
-      "impactMetrics": [
-        { "count": 200, "label": "Participants Reached" }
-      ],
-      "coverImagePath": "/assets/projects/2026-2027/scorp-symposium.jpg",
+      "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.",
+      "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.",
+      "partnerOrganization": "Sample Human Rights Body",
+      "impactMetrics": [{ "count": 200, "label": "Participants" }],
+      "coverImagePath": "/assets/samples/sample-image.jpg",
       "galleryImages": []
     },
     {
-      "id": "proj-score-research-2026",
+      "id": "proj-score-1",
       "batchId": "batch_2026_2027",
       "committeeSlug": "score",
-      "title": "Medical Research Methodology & Biostatistics Workshop",
-      "slug": "research-methodology-biostatistics",
-      "campaignType": "Research Methodology",
+      "title": "Sample Medical Research Methodology Workshop",
+      "slug": "sample-research-methodology-workshop",
+      "campaignType": "Research Workshop",
       "formatType": "workshop",
       "eventDate": "Oct 2026",
-      "summary": "[Add hands-on study design, literature review, and referencing skills outcomes for medical students]",
-      "externalUrl": "https://drive.google.com/drive/folders/sample-research-folder",
-      "partnerOrganization": "[ECUSTA Research Directorate]",
-      "impactMetrics": [
-        { "count": 150, "label": "Students Trained" }
-      ],
-      "coverImagePath": "/assets/projects/2026-2027/score-research.jpg",
+      "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.",
+      "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.",
+      "externalUrl": "https://drive.google.com/sample-toolkit",
+      "partnerOrganization": "Sample Research Directorate",
+      "impactMetrics": [{ "count": 140, "label": "Trained" }],
+      "coverImagePath": "/assets/samples/sample-image.jpg",
       "galleryImages": []
     }
   ]
