@@ -2,15 +2,17 @@ import { notFound } from 'next/navigation';
 import { Metadata } from 'next';
 import { committeeRepo, governanceRepo } from '@/lib/dal';
 import { CommitteeSlug } from '@/types/committees';
-import { CommitteeHeader } from '@/components/features/committees';
+import {
+  CommitteeHeader,
+  CommitteeLeadershipSection,
+} from '@/components/features/committees';
 import { Container } from '@/components/ui/container';
 
 interface PageProps {
   params: Promise<{ committeeId: string }> | { committeeId: string };
-  searchParams: Promise<{ year?: string }> | { year?: string };
+  searchParams?: Promise<{ year?: string }> | { year?: string };
 }
 
-// Pre-render all 6 standing committees statically
 export async function generateStaticParams() {
   const committees = await committeeRepo.getAllCommittees();
   return committees.map((c) => ({
@@ -18,7 +20,6 @@ export async function generateStaticParams() {
   }));
 }
 
-// Generate dynamic SEO metadata
 export async function generateMetadata({ params }: { params: Promise<{ committeeId: string }> | { committeeId: string } }): Promise<Metadata> {
   const resolvedParams = await Promise.resolve(params);
   const committee = await committeeRepo.getCommitteeBySlug(resolvedParams.committeeId.toLowerCase() as CommitteeSlug);
@@ -48,6 +49,9 @@ export default async function CommitteeHubPage({ params, searchParams }: PagePro
   const selectedBatchId = resolvedSearchParams.year || currentTenure.id;
   const activeTenure = tenures.find((t) => t.id === selectedBatchId) || currentTenure;
 
+  // Retrieve leadership for the selected batch
+  const leadership = await committeeRepo.getLeadership(slug, activeTenure.id);
+
   return (
     <div className="flex flex-col min-h-screen bg-canvas">
       {/* 1. Dynamic Header with Batch Year Switcher */}
@@ -57,15 +61,16 @@ export default async function CommitteeHubPage({ params, searchParams }: PagePro
         activeTenure={activeTenure}
       />
 
-      {/* Stage 4.2 & 4.3 Placeholders */}
-      <Container className="py-16">
-        <div className="rounded-xl border border-dashed border-rule-subtle p-12 text-center text-content-secondary">
-          <p className="font-serif text-lg text-content-primary mb-1">
-            {committee.acronym} Leadership & Initiatives Hub
-          </p>
-          <p className="text-xs">
-            Viewing records for academic batch: <span className="text-brand-gold font-semibold">{activeTenure.label}</span>
-          </p>
+      {/* 2. Committee Leadership Roster (Director + Coordinators) */}
+      <CommitteeLeadershipSection
+        leadership={leadership}
+        committee={committee}
+      />
+
+      {/* Stage 4.3 Placeholder */}
+      <Container className="py-12">
+        <div className="rounded-xl border border-dashed border-rule-subtle p-8 text-center text-xs text-content-secondary">
+          Projects & Batch Activity Gallery will load in Stage 4.3.
         </div>
       </Container>
     </div>
