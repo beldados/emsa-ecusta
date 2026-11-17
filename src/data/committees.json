@@ -145,6 +145,91 @@
       "portraitPath": "/assets/leadership/2026-2027/scorp-2.jpg",
       "socialLinks": { "email": "scorp.advocacy@gmail.com" },
       "rankOrder": 2
+    },
+    {
+      "id": "ldr-scope-dir-2024",
+      "batchId": "batch_2024_2025",
+      "committeeSlug": "scope",
+      "isDirector": true,
+      "officialTitle": "LOCAL EXCHANGE OFFICER (LEO)",
+      "fullName": "Rediet Gizachew",
+      "batchTier": "Clinical Year I",
+      "portraitPath": "/assets/leadership/2024-2025/scope-director.jpg",
+      "socialLinks": {
+        "telegram": "https://t.me/scope_ecusta",
+        "email": "scope.ecusta@gmail.com"
+      },
+      "rankOrder": 1
+    },
+    {
+      "id": "ldr-scope-vdir-2024",
+      "batchId": "batch_2024_2025",
+      "committeeSlug": "scope",
+      "isDirector": false,
+      "officialTitle": "Vice-Director",
+      "fullName": "Selamawit Sisay",
+      "batchTier": "Clinical Year I",
+      "portraitPath": "/assets/leadership/2024-2025/scope-vice-director.jpg",
+      "socialLinks": {
+        "email": "scope.ecusta@gmail.com"
+      },
+      "rankOrder": 2
+    },
+    {
+      "id": "ldr-scope-sec-2024",
+      "batchId": "batch_2024_2025",
+      "committeeSlug": "scope",
+      "isDirector": false,
+      "officialTitle": "Secretary",
+      "fullName": "Lidia Alemu",
+      "batchTier": "Pre-Clinical Year II",
+      "portraitPath": "/assets/leadership/2024-2025/scope-secretary.jpg",
+      "socialLinks": {
+        "email": "scope.ecusta@gmail.com"
+      },
+      "rankOrder": 3
+    },
+    {
+      "id": "ldr-scope-proj-2024",
+      "batchId": "batch_2024_2025",
+      "committeeSlug": "scope",
+      "isDirector": false,
+      "officialTitle": "Project Officer",
+      "fullName": "Hanan Belete",
+      "batchTier": "Pre-Clinical Year II",
+      "portraitPath": "/assets/leadership/2024-2025/scope-project-officer.jpg",
+      "socialLinks": {
+        "email": "scope.ecusta@gmail.com"
+      },
+      "rankOrder": 4
+    },
+    {
+      "id": "ldr-scope-fund-2024",
+      "batchId": "batch_2024_2025",
+      "committeeSlug": "scope",
+      "isDirector": false,
+      "officialTitle": "Fundraising Director",
+      "fullName": "Hussniya Shemsu",
+      "batchTier": "Pre-Clinical Year II",
+      "portraitPath": "/assets/leadership/2024-2025/scope-fundraising.jpg",
+      "socialLinks": {
+        "email": "scope.ecusta@gmail.com"
+      },
+      "rankOrder": 5
+    },
+    {
+      "id": "ldr-scope-pr-2024",
+      "batchId": "batch_2024_2025",
+      "committeeSlug": "scope",
+      "isDirector": false,
+      "officialTitle": "Public Relations Director",
+      "fullName": "Meron Shumet",
+      "batchTier": "Pre-Clinical Year I",
+      "portraitPath": "/assets/leadership/2024-2025/scope-pr.jpg",
+      "socialLinks": {
+        "email": "scope.ecusta@gmail.com"
+      },
+      "rankOrder": 6
     }
   ]
 }

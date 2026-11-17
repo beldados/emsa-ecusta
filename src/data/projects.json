@@ -62,6 +62,124 @@
       ]
     },
     {
+      "id": "proj-scope-acls-2025",
+      "batchId": "batch_2024_2025",
+      "committeeSlug": "scope",
+      "title": "Advanced Cardiac Life Support (ACLS) Training for Interns",
+      "slug": "acls-training-for-interns",
+      "campaignType": "Clinical Training",
+      "formatType": "workshop",
+      "eventDate": "March 2024",
+      "summary": "Hands-on certified emergency cardiac resuscitation and airway management simulation training for graduating medical interns.",
+      "longDescription": "Conducted in collaboration with certified American Heart Association (AHA) instructors, equipping interns with practical life-saving protocols and AHA resuscitation certifications.",
+      "partnerOrganization": "American Heart Association (AHA)",
+      "impactMetrics": [
+        { "count": 35, "label": "Interns Certified" }
+      ],
+      "coverImagePath": "/assets/projects/2024-2025/acls-training-flyer.jpg",
+      "galleryImages": [
+        "/assets/projects/2024-2025/acls-hands-on-1.jpg",
+        "/assets/projects/2024-2025/acls-group.jpg"
+      ]
+    },
+    {
+      "id": "proj-scope-ramadan-2024",
+      "batchId": "batch_2024_2025",
+      "committeeSlug": "scope",
+      "title": "Ramadan in the Medicine World: Iftar & Physician Mentorship",
+      "slug": "ramadan-in-medical-world",
+      "campaignType": "Community & Mentorship",
+      "formatType": "workshop",
+      "eventDate": "April 18, 2023",
+      "summary": "Interfaith community iftar combining clinical career guidance and interviews with senior consultants and university faculty.",
+      "longDescription": "Hosted at Eliana Hotel, featuring guest interviews with Dr. Muhidin Abdo (Ethio TEBIB Medical Director), Dr. Abdulsemed Mohammed (AAU Gastroenterologist), and Dr. Amanuel Damie (ECUSTA Pathology Lecturer).",
+      "partnerOrganization": "ECUSTA Faculty & Ethio TEBIB Hospital",
+      "impactMetrics": [
+        { "count": 80, "label": "Attendees" }
+      ],
+      "coverImagePath": "/assets/projects/2024-2025/ramadan-medical-flyer.jpg",
+      "galleryImages": [
+        "/assets/projects/2024-2025/ramadan-iftar-1.jpg",
+        "/assets/projects/2024-2025/ramadan-panel.jpg"
+      ]
+    },
+    {
+      "id": "proj-scope-thinking-box-2024",
+      "batchId": "batch_2024_2025",
+      "committeeSlug": "scope",
+      "title": "Thinking Outside the Box: Multidimensional Healthcare Leadership",
+      "slug": "thinking-outside-the-box-symposium",
+      "campaignType": "Academic Symposium",
+      "formatType": "academic_symposium",
+      "eventDate": "April 1, 2023",
+      "summary": "Campus leadership forum exploring physician entrepreneurship, non-linear medical careers, and professional excellence.",
+      "longDescription": "Exclusive inter-committee panel hosted with Dr. Misiker Kassahun, Dr. Zenebe Gedlie, and Mr. Jodahe Bezabih sharing practical insights on medical leadership and healthcare innovation.",
+      "partnerOrganization": "EMSA-ECUSTA Standing Committees",
+      "impactMetrics": [
+        { "count": 120, "label": "Participants Reached" }
+      ],
+      "coverImagePath": "/assets/projects/2024-2025/thinking-outside-box-flyer.jpg",
+      "galleryImages": [
+        "/assets/projects/2024-2025/panel-stage.jpg"
+      ]
+    },
+    {
+      "id": "proj-scope-intl-webinar-2024",
+      "batchId": "batch_2024_2025",
+      "committeeSlug": "scope",
+      "title": "First International Exchange Webinar: Global Medical Perspectives",
+      "slug": "first-international-exchange-webinar",
+      "campaignType": "International Webinar",
+      "formatType": "digital_resource",
+      "eventDate": "March 19, 2023",
+      "summary": "Cross-cultural virtual exchange connecting ECUSTA students with international SCOPE peers to explore global healthcare systems.",
+      "longDescription": "In collaboration with SCOPE members from Kazakhstan, Indonesia, the Czech Republic, and Peru, discussing exchange program entry requirements and international clinical clerkship preparation.",
+      "externalUrl": "https://meet.google.com/fui-nxbj-dja",
+      "partnerOrganization": "IFMSA International Chapters",
+      "impactMetrics": [
+        { "count": 65, "label": "Global Participants" }
+      ],
+      "coverImagePath": "/assets/projects/2024-2025/international-webinar-flyer.jpg",
+      "galleryImages": []
+    },
+    {
+      "id": "proj-scope-uhc-webinar-2024",
+      "batchId": "batch_2024_2025",
+      "committeeSlug": "scope",
+      "title": "Universal Health Coverage: Live Discourse with CIMSA Indonesia",
+      "slug": "universal-health-coverage-webinar",
+      "campaignType": "Live Digital Panel",
+      "formatType": "digital_resource",
+      "eventDate": "March 27, 2023",
+      "summary": "Comparative epidemiological session discussing universal health coverage challenges and public-private healthcare partnerships.",
+      "longDescription": "Live broadcast between Radiet Teka (SCOPE Ethiopia) and Olga Novena (CIMSA UGM Indonesia), analyzing health equity and systemic access barriers.",
+      "externalUrl": "https://instagram.com/cimsaugm",
+      "partnerOrganization": "CIMSA UGM (Indonesia)",
+      "impactMetrics": [
+        { "count": 90, "label": "Live Stream Views" }
+      ],
+      "coverImagePath": "/assets/projects/2024-2025/uhc-webinar-flyer.jpg",
+      "galleryImages": []
+    },
+    {
+      "id": "proj-scope-career-stories-2024",
+      "batchId": "batch_2024_2025",
+      "committeeSlug": "scope",
+      "title": "Career Development Through Professional Exchange",
+      "slug": "career-development-professional-exchange",
+      "campaignType": "Webinar & Testimony",
+      "formatType": "digital_resource",
+      "eventDate": "March 12, 2023",
+      "summary": "Testimonial session analyzing clinical clerkship benefits, hospital matching strategies, and international alumni success stories.",
+      "longDescription": "Featuring testimonies from Abigael Abiy (Tikur-Anbesa Specialized Hospital, AAU) and Melat Mesfin (University of Gondar Hospital).",
+      "partnerOrganization": "EMSA-Ethiopia SCOPE",
+      "impactMetrics": [
+        { "count": 110, "label": "Attendees" }
+      ],
+      "coverImagePath": "/assets/projects/2024-2025/career-webinar-flyer.jpg",
+      "galleryImages": []
+    },
+    {
       "id": "proj-scora-digital-guide-2026",
       "batchId": "batch_2025_2026",
       "committeeSlug": "scora",
