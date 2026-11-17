@@ -14,9 +14,9 @@ const config: Config = {
           navy: '#1B2A4A',
           midnight: '#0F1B33',
           'midnight-deep': '#050B14',
-          gold: '#D4AF37',
-          'gold-hover': '#C5A028',
-          'gold-rule': '#B8972A',
+          gold: '#5CB3FF',          // Primary Blue Accent (replaces yellow)
+          'gold-hover': '#007FFF',    // Interactive Hover Blue
+          'gold-rule': '#007FFF',     // Border Rule Blue
           crimson: '#9B1B30',
         },
         canvas: {
@@ -52,4 +52,3 @@ const config: Config = {
 };
 
 export default config;
-

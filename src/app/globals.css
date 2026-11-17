@@ -4,17 +4,17 @@
 
 @layer base {
   :root {
-    /* Default Dark Mode (Deep Midnight Clinical) */
+    /* Default Dark Mode (Deep Midnight Clinical) - Backgrounds remain unchanged */
     --color-bg-canvas: #050B14;
     --color-bg-surface: #0F1B33;
     --color-bg-surface-elevated: #16233F;
 
     --color-text-primary: #FAF8F5;
     --color-text-secondary: #A0AEC0;
-    --color-text-gold: #D4AF37;
+    --color-text-gold: #5CB3FF; /* Migrated from yellow to Vibrant Sky Blue */
 
     --color-border-subtle: #1E2D4A;
-    --color-border-gold: #D4AF37;
+    --color-border-gold: #5CB3FF; /* Migrated from gold to Blue */
 
     --color-status-success: #10B981;
     --color-status-warning: #F59E0B;
@@ -29,10 +29,10 @@
 
     --color-text-primary: #0F1B33;
     --color-text-secondary: #4A5568;
-    --color-text-gold: #B8972A;
+    --color-text-gold: #5CB3FF;
 
     --color-border-subtle: #E8E2D9;
-    --color-border-gold: #B8972A;
+    --color-border-gold: #5CB3FF;
 
     --color-status-success: #1B6B45;
     --color-status-warning: #9B6B1B;
