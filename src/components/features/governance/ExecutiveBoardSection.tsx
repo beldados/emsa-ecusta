@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { ExecutiveOfficer, AcademicTenure } from '@/types/governance';
 import { Container } from '@/components/ui/container';
-import { ExecutiveBoardSpotlight } from './ExecutiveBoardSpotlight';
+import { ExecutiveCard } from './ExecutiveCard';
 
 interface ExecutiveBoardSectionProps {
   officers: ExecutiveOfficer[];
@@ -10,10 +10,10 @@ interface ExecutiveBoardSectionProps {
 
 export function ExecutiveBoardSection({ officers, activeTenure }: ExecutiveBoardSectionProps) {
   return (
-    <section id="board" className="py-20 lg:py-28 border-b border-rule-subtle/50 bg-brand-midnight-deep/70 scroll-mt-16">
+    <section id="board" className="py-20 lg:py-28 border-b border-rule-subtle/50 bg-brand-midnight-deep/60 scroll-mt-16">
       <Container>
         {/* Section Header */}
-        <div className="flex flex-col items-center text-center max-w-3xl mx-auto mb-14">
+        <div className="flex flex-col items-center text-center max-w-3xl mx-auto mb-16">
           <span className="text-[11px] font-bold uppercase tracking-widest text-brand-gold">
             CHAPTER GOVERNANCE & LEADERSHIP
           </span>
@@ -34,8 +34,17 @@ export function ExecutiveBoardSection({ officers, activeTenure }: ExecutiveBoard
           </p>
         </div>
 
-        {/* Interactive Orbital Spotlight Component */}
-        <ExecutiveBoardSpotlight officers={officers} />
+        {/* 8-Card Kinetic Grid with Focus Group Effect */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 group/grid">
+          {officers.map((officer) => (
+            <div
+              key={officer.id}
+              className="transition-opacity duration-300 group-hover/grid:opacity-60 hover:!opacity-100"
+            >
+              <ExecutiveCard officer={officer} />
+            </div>
+          ))}
+        </div>
       </Container>
     </section>
   );
