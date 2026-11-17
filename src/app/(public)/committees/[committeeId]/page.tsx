@@ -5,8 +5,10 @@ import { CommitteeSlug } from '@/types/committees';
 import {
   CommitteeHeader,
   CommitteeLeadershipSection,
+  CommitteeProjectsSection,
+  CommitteeBatchGallery,
+  CommitteeJoinBanner,
 } from '@/components/features/committees';
-import { Container } from '@/components/ui/container';
 
 interface PageProps {
   params: Promise<{ committeeId: string }> | { committeeId: string };
@@ -49,12 +51,15 @@ export default async function CommitteeHubPage({ params, searchParams }: PagePro
   const selectedBatchId = resolvedSearchParams.year || currentTenure.id;
   const activeTenure = tenures.find((t) => t.id === selectedBatchId) || currentTenure;
 
-  // Retrieve leadership for the selected batch
-  const leadership = await committeeRepo.getLeadership(slug, activeTenure.id);
+  // Retrieve leadership and projects for the selected batch concurrently
+  const [leadership, projects] = await Promise.all([
+    committeeRepo.getLeadership(slug, activeTenure.id),
+    committeeRepo.getProjects(slug, activeTenure.id),
+  ]);
 
   return (
     <div className="flex flex-col min-h-screen bg-canvas">
-      {/* 1. Dynamic Header with Batch Year Switcher */}
+      {/* 1. Dynamic Header with Batch Year Dropdown */}
       <CommitteeHeader
         committee={committee}
         tenures={tenures}
@@ -67,12 +72,20 @@ export default async function CommitteeHubPage({ params, searchParams }: PagePro
         committee={committee}
       />
 
-      {/* Stage 4.3 Placeholder */}
-      <Container className="py-12">
-        <div className="rounded-xl border border-dashed border-rule-subtle p-8 text-center text-xs text-content-secondary">
-          Projects & Batch Activity Gallery will load in Stage 4.3.
-        </div>
-      </Container>
+      {/* 3. Projects & Campaigns Showcase */}
+      <CommitteeProjectsSection
+        projects={projects}
+        committee={committee}
+      />
+
+      {/* 4. Batch Activity Photo Gallery (6-Photo Grid) */}
+      <CommitteeBatchGallery
+        committee={committee}
+        activeTenureLabel={activeTenure.label}
+      />
+
+      {/* 5. "Join this Committee" Community Banner */}
+      <CommitteeJoinBanner committee={committee} />
     </div>
   );
 }

@@ -37,7 +37,7 @@ export const SafeImage: React.FC<SafeImageProps> = ({
       <div
         role="img"
         aria-label={alt}
-        className={`flex items-center justify-center bg-brand-navy-800/80 border border-brand-navy-700 text-brand-gold font-bold select-none transition-colors ${className} ${fallbackClassName}`}
+        className={`flex items-center justify-center bg-brand-navy-800/80 border border-brand-navy-700 text-brand-gold font-bold select-none transition-colors ${props.fill ? 'absolute inset-0 w-full h-full' : ''} ${className} ${fallbackClassName}`}
       >
         <span className="text-xs sm:text-sm tracking-widest">{initials}</span>
       </div>

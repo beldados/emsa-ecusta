@@ -3,3 +3,6 @@ export * from './CommitteeOverviewSection';
 export * from './CommitteeHeader';
 export * from './BatchYearDropdown';
 export * from './CommitteeLeadershipSection';
+export * from './CommitteeProjectsSection';
+export * from './CommitteeBatchGallery';
+export * from './CommitteeJoinBanner';
