@@ -1,6 +1,40 @@
 {
   "projects": [
     {
+      "id": "proj-scome-escape-medschool",
+      "batchId": "batch_2026_2027",
+      "committeeSlug": "scome",
+      "title": "How to Escape Med School (Legally) - Workshop",
+      "slug": "how-to-escape-med-school-legally",
+      "campaignType": "Clinical Skills & Soft Skills",
+      "formatType": "workshop",
+      "eventDate": "2024",
+      "summary": "Practical soft skills and academic navigation workshop equipping medical students to survive and excel in clinical years.",
+      "partnerOrganization": "ECUSTA SCOME Academic Team",
+      "impactMetrics": [
+        { "count": 70, "label": "Students Trained" }
+      ],
+      "coverImagePath": "/assets/samples/sample-image.jpg",
+      "galleryImages": []
+    },
+    {
+      "id": "proj-scorp-diplomacy-punching",
+      "batchId": "batch_2026_2027",
+      "committeeSlug": "scorp",
+      "title": "Diplomacy: Because Punching Isn't an Option",
+      "slug": "diplomacy-punching-isnt-an-option",
+      "campaignType": "Human Rights & Peace Dialogue",
+      "formatType": "academic_symposium",
+      "eventDate": "2024",
+      "summary": "Conflict resolution, human rights advocacy, and peace-building simulation workshop for future physicians.",
+      "partnerOrganization": "ECUSTA SCORP Peace Directorate",
+      "impactMetrics": [
+        { "count": 85, "label": "Participants Reached" }
+      ],
+      "coverImagePath": "/assets/samples/sample-image.jpg",
+      "galleryImages": []
+    },
+    {
       "id": "proj-scora-1",
       "batchId": "batch_2024_2025",
       "committeeSlug": "scora",
