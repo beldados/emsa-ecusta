@@ -27,83 +27,110 @@
   ],
   "executiveOfficers": [
     {
-      "id": "eo-2026-1",
+      "id": "eo-2026-mesula",
       "batchId": "batch_2026_2027",
-      "fullName": "Sample President Name",
+      "fullName": "Mesula Wubliker",
       "role": "PRESIDENT",
       "batchTier": "Clinical Year II",
-      "portraitPath": "/assets/samples/sample-image.jpg",
-      "socialLinks": { "telegram": "https://t.me/sample_pres", "email": "president.sample@ecusta.edu.et" },
+      "portraitPath": "/assets/leadership/2026-2027/president.jpg",
+      "socialLinks": {
+        "telegram": "https://t.me/mesula_w",
+        "linkedin": "https://linkedin.com/in/mesula-wubliker",
+        "email": "president.emsa.ecusta@gmail.com"
+      },
       "rankOrder": 1
     },
     {
-      "id": "eo-2026-2",
+      "id": "eo-2026-tibeb",
       "batchId": "batch_2026_2027",
-      "fullName": "Sample VP External",
+      "fullName": "Tibeb Birhanu",
       "role": "VP OF EXTERNAL AFFAIRS",
       "batchTier": "Clinical Year II",
-      "portraitPath": "/assets/samples/sample-image.jpg",
-      "socialLinks": { "telegram": "https://t.me/sample_vpe", "email": "vpe.sample@ecusta.edu.et" },
+      "portraitPath": "/assets/leadership/2026-2027/vp-external.jpg",
+      "socialLinks": {
+        "telegram": "https://t.me/tibeb_b",
+        "linkedin": "https://linkedin.com/in/tibeb-birhanu",
+        "email": "vpe.emsa.ecusta@gmail.com"
+      },
       "rankOrder": 2
     },
     {
-      "id": "eo-2026-3",
+      "id": "eo-2026-akinahom",
       "batchId": "batch_2026_2027",
-      "fullName": "Sample VP Capacity Building",
+      "fullName": "Akinahom Molla",
       "role": "VP OF CAPACITY BUILDING",
       "batchTier": "Pre-Clinical Year II",
-      "portraitPath": "/assets/samples/sample-image.jpg",
-      "socialLinks": { "telegram": "https://t.me/sample_vcb", "email": "vcb.sample@ecusta.edu.et" },
+      "portraitPath": "/assets/leadership/2026-2027/vp-capacity.jpg",
+      "socialLinks": {
+        "telegram": "https://t.me/akinahom_m",
+        "linkedin": "https://linkedin.com/in/akinahom-molla",
+        "email": "vcb.emsa.ecusta@gmail.com"
+      },
       "rankOrder": 3
     },
     {
-      "id": "eo-2026-4",
+      "id": "eo-2026-ruth",
       "batchId": "batch_2026_2027",
-      "fullName": "Sample VP Finance",
+      "fullName": "Ruth Eshetu",
       "role": "VP OF FINANCE",
       "batchTier": "Pre-Clinical Year II",
-      "portraitPath": "/assets/samples/sample-image.jpg",
-      "socialLinks": { "email": "finance.sample@ecusta.edu.et" },
+      "portraitPath": "/assets/leadership/2026-2027/vp-finance.jpg",
+      "socialLinks": {
+        "telegram": "https://t.me/ruth_e",
+        "email": "finance.emsa.ecusta@gmail.com"
+      },
       "rankOrder": 4
     },
     {
-      "id": "eo-2026-5",
+      "id": "eo-2026-alazar",
       "batchId": "batch_2026_2027",
-      "fullName": "Sample VP Activities",
+      "fullName": "Alazar Wondwossen",
       "role": "VP OF ACTIVITIES",
       "batchTier": "Pre-Clinical Year I",
-      "portraitPath": "/assets/samples/sample-image.jpg",
-      "socialLinks": { "email": "activities.sample@ecusta.edu.et" },
+      "portraitPath": "/assets/leadership/2026-2027/vp-activities.jpg",
+      "socialLinks": {
+        "telegram": "https://t.me/alazar_w",
+        "email": "activities.emsa.ecusta@gmail.com"
+      },
       "rankOrder": 5
     },
     {
-      "id": "eo-2026-6",
+      "id": "eo-2026-nejat",
       "batchId": "batch_2026_2027",
-      "fullName": "Sample VP Members",
+      "fullName": "Nejat Teka",
       "role": "VP OF MEMBERS",
       "batchTier": "Pre-Clinical Year I",
-      "portraitPath": "/assets/samples/sample-image.jpg",
-      "socialLinks": { "email": "members.sample@ecusta.edu.et" },
+      "portraitPath": "/assets/leadership/2026-2027/vp-members.jpg",
+      "socialLinks": {
+        "telegram": "https://t.me/nejat_t",
+        "email": "members.emsa.ecusta@gmail.com"
+      },
       "rankOrder": 6
     },
     {
-      "id": "eo-2026-7",
+      "id": "eo-2026-daniel",
       "batchId": "batch_2026_2027",
-      "fullName": "Sample VP PR",
+      "fullName": "Daniel Demerw",
       "role": "VP OF PR & COMMUNICATION",
       "batchTier": "Pre-Clinical Year I",
-      "portraitPath": "/assets/samples/sample-image.jpg",
-      "socialLinks": { "email": "pr.sample@ecusta.edu.et" },
+      "portraitPath": "/assets/leadership/2026-2027/vp-pr.jpg",
+      "socialLinks": {
+        "telegram": "https://t.me/daniel_d",
+        "email": "pr.emsa.ecusta@gmail.com"
+      },
       "rankOrder": 7
     },
     {
-      "id": "eo-2026-8",
+      "id": "eo-2026-basleal",
       "batchId": "batch_2026_2027",
-      "fullName": "Sample Assistant VP PR",
+      "fullName": "Basleal Bereket",
       "role": "ASSISTANT - VP OF PR & COMMUNICATION",
       "batchTier": "Pre-Clinical Year I",
-      "portraitPath": "/assets/samples/sample-image.jpg",
-      "socialLinks": { "email": "asstpr.sample@ecusta.edu.et" },
+      "portraitPath": "/assets/leadership/2026-2027/asst-pr.jpg",
+      "socialLinks": {
+        "telegram": "https://t.me/basleal_b",
+        "email": "asst.pr.emsa.ecusta@gmail.com"
+      },
       "rankOrder": 8
     }
   ],

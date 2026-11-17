@@ -6,7 +6,7 @@
       "name": "Medical Education",
       "shortDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
       "fullMission": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.",
-      "logoPath": "/assets/samples/sample-image.jpg",
+      "logoPath": "/assets/committees/scome/scome.jpg",
       "colorTheme": { "primary": "#3B82F6", "badgeBg": "bg-blue-500/15", "accentGlow": "shadow-blue-500/20" },
       "telegramJoinUrl": "https://t.me/emsa_ecusta"
     },
@@ -16,7 +16,7 @@
       "name": "Public Health",
       "shortDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
       "fullMission": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.",
-      "logoPath": "/assets/samples/sample-image.jpg",
+      "logoPath": "/assets/committees/scoph/scoph.jpg",
       "colorTheme": { "primary": "#F97316", "badgeBg": "bg-orange-500/15", "accentGlow": "shadow-orange-500/20" },
       "telegramJoinUrl": "https://t.me/emsa_ecusta"
     },
@@ -26,7 +26,7 @@
       "name": "Sexual & Reproductive Health and Rights",
       "shortDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
       "fullMission": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.",
-      "logoPath": "/assets/samples/sample-image.jpg",
+      "logoPath": "/assets/committees/scora/scora.jpg",
       "colorTheme": { "primary": "#EC4899", "badgeBg": "bg-pink-500/15", "accentGlow": "shadow-pink-500/20" },
       "telegramJoinUrl": "https://t.me/emsa_ecusta"
     },
@@ -36,7 +36,7 @@
       "name": "Professional Exchange",
       "shortDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
       "fullMission": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.",
-      "logoPath": "/assets/samples/sample-image.jpg",
+      "logoPath": "/assets/committees/scope/scope.jpg",
       "colorTheme": { "primary": "#06B6D4", "badgeBg": "bg-cyan-500/15", "accentGlow": "shadow-cyan-500/20" },
       "telegramJoinUrl": "https://t.me/emsa_ecusta"
     },
@@ -46,7 +46,7 @@
       "name": "Human Rights & Peace",
       "shortDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
       "fullMission": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.",
-      "logoPath": "/assets/samples/sample-image.jpg",
+      "logoPath": "/assets/committees/scorp/scorp.jpg",
       "colorTheme": { "primary": "#10B981", "badgeBg": "bg-emerald-500/15", "accentGlow": "shadow-emerald-500/20" },
       "telegramJoinUrl": "https://t.me/emsa_ecusta"
     },
@@ -56,7 +56,7 @@
       "name": "Research Exchange",
       "shortDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
       "fullMission": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.",
-      "logoPath": "/assets/samples/sample-image.jpg",
+      "logoPath": "/assets/committees/score/score.jpg",
       "colorTheme": { "primary": "#8B5CF6", "badgeBg": "bg-purple-500/15", "accentGlow": "shadow-purple-500/20" },
       "telegramJoinUrl": "https://t.me/emsa_ecusta"
     }
