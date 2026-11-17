@@ -1,12 +1,20 @@
-import { governanceRepo } from '@/lib/dal';
-import { HeroSection, AboutSection, ExecutiveBoardSection } from '@/components/features/governance';
+import { governanceRepo, committeeRepo } from '@/lib/dal';
+import {
+  HeroSection,
+  AboutSection,
+  ExecutiveBoardSection,
+  AffiliatesBar,
+} from '@/components/features/governance';
+import { CommitteeOverviewSection } from '@/components/features/committees';
 
 export default async function HomePage() {
-  // Query data cleanly through our Data Access Layer (DAL)
-  const [coreValues, executiveBoard, activeTenure] = await Promise.all([
+  // Concurrent server-side queries via centralized Data Access Layer
+  const [coreValues, executiveBoard, activeTenure, committees, affiliates] = await Promise.all([
     governanceRepo.getCoreValues(),
     governanceRepo.getExecutiveBoard(),
     governanceRepo.getActiveTenure(),
+    committeeRepo.getAllCommittees(),
+    governanceRepo.getAffiliates(),
   ]);
 
   return (
@@ -17,11 +25,14 @@ export default async function HomePage() {
       {/* 2. About EMSA-ECUSTA Section */}
       <AboutSection coreValues={coreValues} />
 
-      {/* 3. Executive Board 2026–2027 Section */}
+      {/* 3. Executive Board 2026–2027 Roster */}
       <ExecutiveBoardSection officers={executiveBoard} activeTenure={activeTenure} />
 
-      {/* Anchor target for smooth scrolling */}
-      <div id="committees" />
+      {/* 4. Standing Committees Showcase */}
+      <CommitteeOverviewSection committees={committees} />
+
+      {/* 5. Healthcare Institutions & Affiliations Bar */}
+      <AffiliatesBar affiliates={affiliates} />
     </div>
   );
 }
