@@ -1,8 +1,11 @@
+'use client';
+
 import React, { useState } from 'react';
 import Image, { ImageProps } from 'next/image';
 
 export interface SafeImageProps extends Omit<ImageProps, 'onError'> {
   fallbackInitials?: string;
+  fallbackText?: string;
   fallbackClassName?: string;
 }
 
@@ -10,6 +13,7 @@ export const SafeImage: React.FC<SafeImageProps> = ({
   src,
   alt,
   fallbackInitials,
+  fallbackText,
   fallbackClassName = '',
   className = '',
   ...props
@@ -18,8 +22,9 @@ export const SafeImage: React.FC<SafeImageProps> = ({
 
   // If error occurred or src is missing/empty, display the fallback initials monogram container
   if (hasError || !src) {
-    const initials = fallbackInitials
-      ? fallbackInitials.slice(0, 3).toUpperCase()
+    const rawInitials = fallbackInitials || fallbackText;
+    const initials = rawInitials
+      ? rawInitials.slice(0, 4).toUpperCase()
       : alt
           .split(' ')
           .filter(Boolean)
