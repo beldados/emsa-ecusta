@@ -7,6 +7,7 @@ import { Container } from '@/components/ui/container';
 import { Button } from '@/components/ui/button';
 import { ProgressBar } from '@/components/ui/progress-bar';
 import { cn } from '@/lib/utils/cn';
+import { CapstoneSubmissionForm } from './CapstoneSubmissionForm';
 
 interface CourseWorkspaceProps {
   course: AcademyCourse;
@@ -227,23 +228,12 @@ export function CourseWorkspace({ course }: CourseWorkspaceProps) {
                 </div>
               )}
 
-              {/* Tab 3: Final Project Submission Placeholder (Completed in Stage 6.3) */}
+              {/* Tab 3: Final Project Submission */}
               {activeTab === 'capstone' && (
-                <div className="space-y-4 text-xs sm:text-sm text-content-secondary leading-relaxed">
-                  <div className="flex items-center gap-2">
-                    <span className="text-brand-gold font-bold">★</span>
-                    <span className="text-[11px] font-bold uppercase tracking-widest text-brand-gold">
-                      COURSE CAPSTONE ASSIGNMENT
-                    </span>
-                  </div>
-                  <h3 className="font-serif text-xl font-bold text-content-primary">
-                    {course.capstoneSpec.title}
-                  </h3>
-                  <p>{course.capstoneSpec.instructions}</p>
-                  <div className="p-5 rounded-xl border border-rule-gold/30 bg-brand-gold/5 text-xs text-brand-gold">
-                    External Link Submission Form (Google Drive, Canva, Figma) will unlock in Stage 6.3.
-                  </div>
-                </div>
+                <CapstoneSubmissionForm
+                  course={course}
+                  isUnlocked={progressPercent === 100}
+                />
               )}
             </div>
           </div>
