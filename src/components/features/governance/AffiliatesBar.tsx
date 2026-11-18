@@ -1,6 +1,5 @@
 import * as React from 'react';
 import { HealthcareAffiliate } from '@/types/governance';
-import { Container } from '@/components/ui/container';
 import { SafeImage } from '@/components/ui/safe-image';
 
 interface AffiliatesBarProps {
@@ -8,46 +7,45 @@ interface AffiliatesBarProps {
 }
 
 export function AffiliatesBar({ affiliates }: AffiliatesBarProps) {
-  return (
-    <section className="py-14 bg-brand-midnight/60">
-      <Container>
-        <div className="flex flex-col items-center text-center mb-8">
-          <span className="text-[11px] font-bold uppercase tracking-widest text-content-secondary/80">
-            COLLABORATING HEALTHCARE INSTITUTIONS & AFFILIATIONS
-          </span>
-        </div>
+  // Duplicate the array to create a seamless infinite loop
+  const marqueeItems = [...affiliates, ...affiliates, ...affiliates];
 
-        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-6 items-center">
-          {affiliates.map((affiliate) => (
+  return (
+    <section className="py-12 bg-brand-midnight-deep/90 overflow-hidden relative">
+      {/* Eyebrow Label */}
+      <div className="flex justify-center mb-8">
+        <span className="text-[11px] font-bold uppercase tracking-widest text-content-secondary/70">
+          COLLABORATING HEALTHCARE INSTITUTIONS & AFFILIATIONS
+        </span>
+      </div>
+
+      {/* Marquee Viewport with Edge Fade Masks */}
+      <div className="relative w-full overflow-hidden [mask-image:linear-gradient(to_right,transparent,black_10%,black_90%,transparent)]">
+        <div className="animate-marquee flex items-center gap-12 sm:gap-16">
+          {marqueeItems.map((affiliate, index) => (
             <a
-              key={affiliate.id}
+              key={`${affiliate.id}-${index}`}
               href={affiliate.websiteUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="group flex flex-col items-center text-center p-3 rounded-lg border border-transparent hover:border-rule-subtle hover:bg-surface/50 transition-all duration-300"
+              title={affiliate.name}
+              className="group shrink-0 flex items-center justify-center p-3 rounded-xl border border-transparent hover:border-rule-subtle hover:bg-surface/60 transition-all duration-300"
             >
-              <div className="h-12 w-12 rounded-full border border-rule-subtle/60 bg-brand-midnight-deep p-1.5 flex items-center justify-center mb-2.5 group-hover:border-brand-gold/60 transition-colors">
+              {/* Logo Frame — Sole visual element */}
+              <div className="h-14 sm:h-16 w-32 sm:w-36 flex items-center justify-center grayscale opacity-60 group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-300">
                 <SafeImage
                   src={affiliate.logoPath}
                   alt={affiliate.name}
-                  width={40}
-                  height={40}
-                  className="h-full w-full object-contain"
+                  width={140}
+                  height={60}
+                  className="max-h-full max-w-full object-contain"
                   fallbackText={affiliate.shortName}
                 />
               </div>
-
-              <span className="text-xs font-bold text-content-primary group-hover:text-brand-gold transition-colors line-clamp-1">
-                {affiliate.shortName}
-              </span>
-
-              <span className="text-[10px] text-content-secondary line-clamp-1 mt-0.5">
-                {affiliate.name}
-              </span>
             </a>
           ))}
         </div>
-      </Container>
+      </div>
     </section>
   );
 }

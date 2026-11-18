@@ -144,11 +144,53 @@
     { "id": "val-7", "title": "Service to our country", "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit." }
   ],
   "healthcareAffiliates": [
-    { "id": "aff-1", "name": "Catholic University of Health Sciences", "shortName": "ECUSTA", "category": "university", "logoPath": "/assets/samples/sample-image.jpg", "websiteUrl": "https://ecusta.edu.et" },
-    { "id": "aff-2", "name": "Ethiopian Medical Students' Association", "shortName": "EMSA-ETHIOPIA", "category": "national_association", "logoPath": "/assets/samples/sample-image.jpg", "websiteUrl": "https://emsa-ethiopia.org" },
-    { "id": "aff-3", "name": "International Federation of Medical Students' Associations", "shortName": "IFMSA", "category": "international", "logoPath": "/assets/samples/sample-image.jpg", "websiteUrl": "https://ifmsa.org" },
-    { "id": "aff-4", "name": "Ministry of Health Ethiopia", "shortName": "MINISTRY OF HEALTH", "category": "ministry", "logoPath": "/assets/samples/sample-image.jpg", "websiteUrl": "https://moh.gov.et" },
-    { "id": "aff-5", "name": "St. Paul's Hospital Millennium Medical College", "shortName": "ST. PAUL'S HOSPITAL", "category": "hospital", "logoPath": "/assets/samples/sample-image.jpg", "websiteUrl": "https://sphmmc.edu.et" },
-    { "id": "aff-6", "name": "Ethiopian Red Cross Society", "shortName": "RED CROSS", "category": "humanitarian", "logoPath": "/assets/samples/sample-image.jpg", "websiteUrl": "https://redcrosseth.org" }
+    {
+      "id": "aff-ecusta",
+      "name": "Catholic University of Health Sciences",
+      "shortName": "ECUSTA",
+      "category": "university",
+      "logoPath": "/assets/branding/ecusta.png",
+      "websiteUrl": "https://ecusta.edu.et"
+    },
+    {
+      "id": "aff-emsa-ethiopia",
+      "name": "Ethiopian Medical Students' Association",
+      "shortName": "EMSA-ETHIOPIA",
+      "category": "national_association",
+      "logoPath": "/assets/branding/emsa-ethiopia.png",
+      "websiteUrl": "https://emsa-ethiopia.org"
+    },
+    {
+      "id": "aff-ifmsa",
+      "name": "International Federation of Medical Students' Associations",
+      "shortName": "IFMSA",
+      "category": "international",
+      "logoPath": "/assets/branding/ifmsa.png",
+      "websiteUrl": "https://ifmsa.org"
+    },
+    {
+      "id": "aff-moh",
+      "name": "Ministry of Health Ethiopia",
+      "shortName": "MINISTRY OF HEALTH",
+      "category": "ministry",
+      "logoPath": "/assets/branding/ministry-of-health.png",
+      "websiteUrl": "https://moh.gov.et"
+    },
+    {
+      "id": "aff-st-pauls",
+      "name": "St. Paul's Hospital Millennium Medical College",
+      "shortName": "ST. PAUL'S HOSPITAL",
+      "category": "hospital",
+      "logoPath": "/assets/branding/st-pauls.png",
+      "websiteUrl": "https://sphmmc.edu.et"
+    },
+    {
+      "id": "aff-red-cross",
+      "name": "Ethiopian Red Cross Society",
+      "shortName": "RED CROSS",
+      "category": "humanitarian",
+      "logoPath": "/assets/branding/red-cross.png",
+      "websiteUrl": "https://redcrosseth.org"
+    }
   ]
 }
