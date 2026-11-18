@@ -16,12 +16,24 @@ export function apiSuccess<T>(data: T, status: number = 200) {
   );
 }
 
-export function apiError(error: string, status: number = 400) {
+export function apiError(
+  error: string,
+  messageOrStatus?: string | number,
+  status: number = 400,
+  details?: any
+) {
+  let errorMessage = error;
+  let statusCode = typeof messageOrStatus === 'number' ? messageOrStatus : status;
+
+  if (typeof messageOrStatus === 'string') {
+    errorMessage = `${error}: ${messageOrStatus}`;
+  }
+
   return NextResponse.json<ApiResponse>(
     {
       success: false,
-      error,
+      error: errorMessage,
     },
-    { status }
+    { status: statusCode }
   );
 }

@@ -22,6 +22,21 @@ export interface CertificateRecord {
   qrCodeDataUrl?: string;
   revocationReason?: string;
   revokedAt?: string;
+  signatories?: {
+    president?: {
+      name: string;
+      title: string;
+    };
+    vpCapacityBuilding?: {
+      name: string;
+      title: string;
+    };
+  };
+  auditLedger?: {
+    institution?: string;
+    issuedBy?: string;
+    constitutionalAuthority?: string;
+  };
 }
 
 export interface PublicVerificationResult {

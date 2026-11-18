@@ -1,0 +1,31 @@
+{
+  "certificates": [
+    {
+      "id": "cert-rec-88492x",
+      "certificateId": "ECUSTA-CERT-88492X",
+      "studentId": "std-mesula-01",
+      "courseSlug": "graphic-design-health-advocacy",
+      "recipientName": "Mesula Wubliker Grandfather",
+      "courseTitle": "Graphic Design for Medical Advocacy",
+      "issueDate": "November 2026",
+      "issueDateISO": "2026-11-15T00:00:00.000Z",
+      "status": "ACTIVE",
+      "cryptographicHash": "7f83b16524e78a63f913d0b28492e8d35678a9c0123456789abcdef01234e2d1",
+      "signatories": {
+        "president": {
+          "name": "Mesula Wubliker",
+          "title": "PRESIDENT, EMSA-ECUSTA"
+        },
+        "vpCapacityBuilding": {
+          "name": "Akinahom Molla",
+          "title": "VP OF CAPACITY BUILDING"
+        }
+      },
+      "auditLedger": {
+        "institution": "EMSA-ECUSTA (Catholic University of Health Sciences)",
+        "issuedBy": "Executive Board (Capacity Building Directorate)",
+        "constitutionalAuthority": "Issued under the authority of the EMSA-ECUSTA constitution."
+      }
+    }
+  ]
+}
