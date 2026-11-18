@@ -9,7 +9,7 @@ interface CommitteeOverviewSectionProps {
 
 export function CommitteeOverviewSection({ committees }: CommitteeOverviewSectionProps) {
   return (
-    <section id="committees" className="py-20 lg:py-28 border-b border-rule-subtle/50 bg-canvas scroll-mt-16">
+    <section id="committees" className="py-20 lg:py-28 bg-canvas scroll-mt-16">
       <Container>
         {/* Section Header */}
         <div className="flex flex-col items-center text-center max-w-2xl mx-auto mb-16">

@@ -14,7 +14,7 @@ interface CommitteeHeaderProps {
 
 export function CommitteeHeader({ committee, tenures, activeTenure }: CommitteeHeaderProps) {
   return (
-    <div className="w-full border-b border-rule-subtle/50 bg-gradient-to-b from-brand-midnight to-canvas pt-8 pb-12">
+    <div className="w-full bg-gradient-to-b from-brand-midnight to-canvas pt-8 pb-12">
       <Container>
         {/* Breadcrumb Navigation */}
         <nav className="flex items-center gap-2 text-xs text-content-secondary mb-8">

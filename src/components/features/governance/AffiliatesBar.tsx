@@ -9,7 +9,7 @@ interface AffiliatesBarProps {
 
 export function AffiliatesBar({ affiliates }: AffiliatesBarProps) {
   return (
-    <section className="py-14 bg-brand-midnight/60 border-b border-rule-subtle/50">
+    <section className="py-14 bg-brand-midnight/60">
       <Container>
         <div className="flex flex-col items-center text-center mb-8">
           <span className="text-[11px] font-bold uppercase tracking-widest text-content-secondary/80">

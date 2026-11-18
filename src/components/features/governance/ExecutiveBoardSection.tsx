@@ -10,7 +10,7 @@ interface ExecutiveBoardSectionProps {
 
 export function ExecutiveBoardSection({ officers, activeTenure }: ExecutiveBoardSectionProps) {
   return (
-    <section id="board" className="py-20 lg:py-28 border-b border-rule-subtle/50 bg-brand-midnight-deep/60 scroll-mt-16">
+    <section id="board" className="py-20 lg:py-28 bg-brand-midnight-deep/70 scroll-mt-16">
       <Container>
         {/* Section Header */}
         <div className="flex flex-col items-center text-center max-w-3xl mx-auto mb-16">

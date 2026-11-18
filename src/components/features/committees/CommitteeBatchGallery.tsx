@@ -20,7 +20,7 @@ export function CommitteeBatchGallery({ committee, activeTenureLabel }: Committe
   ];
 
   return (
-    <section className="py-16 border-b border-rule-subtle/50 bg-canvas">
+    <section className="py-16 bg-canvas">
       <Container>
         {/* Section Header */}
         <div className="flex items-center justify-between mb-10">

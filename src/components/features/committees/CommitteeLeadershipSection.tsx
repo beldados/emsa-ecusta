@@ -12,7 +12,7 @@ interface CommitteeLeadershipSectionProps {
 export function CommitteeLeadershipSection({ leadership, committee }: CommitteeLeadershipSectionProps) {
   if (!leadership || leadership.length === 0) {
     return (
-      <section className="py-12 border-b border-rule-subtle/50 bg-canvas">
+      <section className="py-12 bg-canvas">
         <Container>
           <div className="flex items-center gap-3 mb-8">
             <span className="h-0.5 w-6 rounded-full" style={{ backgroundColor: committee.colorTheme.primary }} />
@@ -33,7 +33,7 @@ export function CommitteeLeadershipSection({ leadership, committee }: CommitteeL
   const coordinators = leadership.filter((l) => l.id !== director.id);
 
   return (
-    <section className="py-16 border-b border-rule-subtle/50 bg-canvas">
+    <section className="py-16 bg-canvas">
       <Container>
         {/* Section title */}
         <div className="flex items-center gap-3 mb-10">

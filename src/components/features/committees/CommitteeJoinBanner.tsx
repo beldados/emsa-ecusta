@@ -9,7 +9,7 @@ interface CommitteeJoinBannerProps {
 
 export function CommitteeJoinBanner({ committee }: CommitteeJoinBannerProps) {
   return (
-    <section className="py-14 bg-brand-midnight border-b border-rule-subtle/50">
+    <section className="py-14 bg-brand-midnight">
       <Container>
         <div className="flex flex-col sm:flex-row items-center justify-between gap-6 p-8 rounded-2xl border border-rule-subtle bg-surface/90 shadow-xl">
           {/* Text block */}

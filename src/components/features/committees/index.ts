@@ -2,6 +2,7 @@ export * from './CommitteeCard';
 export * from './CommitteeOverviewSection';
 export * from './CommitteeHeader';
 export * from './BatchYearDropdown';
+export * from './CommitteeAboutSection';
 export * from './CommitteeLeadershipSection';
 export * from './CommitteeProjectsSection';
 export * from './CommitteeBatchGallery';

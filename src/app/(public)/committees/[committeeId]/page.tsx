@@ -4,6 +4,7 @@ import { committeeRepo, governanceRepo } from '@/lib/dal';
 import { CommitteeSlug } from '@/types/committees';
 import {
   CommitteeHeader,
+  CommitteeAboutSection,
   CommitteeLeadershipSection,
   CommitteeProjectsSection,
   CommitteeBatchGallery,
@@ -51,7 +52,7 @@ export default async function CommitteeHubPage({ params, searchParams }: PagePro
   const selectedBatchId = resolvedSearchParams.year || currentTenure.id;
   const activeTenure = tenures.find((t) => t.id === selectedBatchId) || currentTenure;
 
-  // Retrieve leadership and projects for the selected batch concurrently
+  // Retrieve leadership and projects for the selected batch
   const [leadership, projects] = await Promise.all([
     committeeRepo.getLeadership(slug, activeTenure.id),
     committeeRepo.getProjects(slug, activeTenure.id),
@@ -59,32 +60,35 @@ export default async function CommitteeHubPage({ params, searchParams }: PagePro
 
   return (
     <div className="flex flex-col min-h-screen bg-canvas">
-      {/* 1. Dynamic Header with Batch Year Dropdown */}
+      {/* 1. Header with Batch Year Dropdown */}
       <CommitteeHeader
         committee={committee}
         tenures={tenures}
         activeTenure={activeTenure}
       />
 
-      {/* 2. Committee Leadership Roster (Director + Coordinators) */}
+      {/* 2. Dedicated About the Committee Section with Logo on the side */}
+      <CommitteeAboutSection committee={committee} />
+
+      {/* 3. Committee Leadership Roster (Director + Coordinators) */}
       <CommitteeLeadershipSection
         leadership={leadership}
         committee={committee}
       />
 
-      {/* 3. Projects & Campaigns Showcase */}
+      {/* 4. Projects & Campaigns */}
       <CommitteeProjectsSection
         projects={projects}
         committee={committee}
       />
 
-      {/* 4. Batch Activity Photo Gallery (6-Photo Grid) */}
+      {/* 5. Batch Activity Photo Gallery */}
       <CommitteeBatchGallery
         committee={committee}
         activeTenureLabel={activeTenure.label}
       />
 
-      {/* 5. "Join this Committee" Community Banner */}
+      {/* 6. Telegram Community Banner */}
       <CommitteeJoinBanner committee={committee} />
     </div>
   );

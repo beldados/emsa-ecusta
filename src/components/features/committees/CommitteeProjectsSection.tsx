@@ -11,7 +11,7 @@ interface CommitteeProjectsSectionProps {
 
 export function CommitteeProjectsSection({ projects, committee }: CommitteeProjectsSectionProps) {
   return (
-    <section className="py-16 border-b border-rule-subtle/50 bg-brand-midnight-deep/40">
+    <section className="py-16 bg-brand-midnight-deep/40">
       <Container>
         {/* Section Header */}
         <div className="flex items-center gap-3 mb-10">

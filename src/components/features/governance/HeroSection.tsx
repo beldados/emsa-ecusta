@@ -6,7 +6,7 @@ export function HeroSection() {
   const pillars = ['ADVOCACY', 'INTEGRITY', 'EXCELLENCE', 'SERVICE'];
 
   return (
-    <section className="relative overflow-hidden py-20 lg:py-28 border-b border-rule-subtle/50">
+    <section className="relative overflow-hidden py-20 lg:py-28">
       {/* Subtle radial glow backdrop */}
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[300px] bg-brand-gold/5 blur-[120px] rounded-full pointer-events-none" />
 
